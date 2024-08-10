@@ -87,6 +87,7 @@
 %% The amssymb package provides various useful mathematical symbols
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage{amsmath}
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
 
@@ -262,8 +263,22 @@ and the risk of diseases \cite{Rorato2023}.
 
 \section{Model formulation}
 \label{}
-Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$).
-
+Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations of the model are given as:
+\begin{gather*}
+\begin{aligned}
+\dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \\
+\\
+\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \gamma I_H \\
+\\
+\dfrac{dR_H}{dt} & = \gamma I_H \\
+\\
+\dfrac{dS_M}{dt} & = b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \\
+\\
+\dfrac{dE_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) \\
+\\
+\dfrac{dI_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) - \mu I_M
+\end{aligned}
+\end{gather*}
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
 %% \appendix
