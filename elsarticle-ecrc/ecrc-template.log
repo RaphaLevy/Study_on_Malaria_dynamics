@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  8 AUG 2024 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  10 AUG 2024 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,14 +604,17 @@ tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box56
-) (ecrc-template.aux)
+) (ecrc-template.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `ecrc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 132.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 132.
-
-(C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
+ (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 132.
@@ -748,12 +751,12 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-<elsevier-logo-3p.pdf, id=11, 54.08205pt x 59.7432pt>
+<elsevier-logo-3p.pdf, id=15, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
 Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 248.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
-<SDlogo-3p.pdf, id=12, 169.8345pt x 33.9669pt>
+<SDlogo-3p.pdf, id=16, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
 Package pdftex.def Info: SDlogo-3p.pdf  used on input line 248.
@@ -797,48 +800,53 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 ana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
  <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
-
-Package natbib Warning: Citation `Rorato2023' on page 2 undefined on input line
- 261.
-
-No file ecrc-template.bbl.
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--299
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
+
+ []
 
 [2] (ecrc-template.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: 5ADD60B4EAA3A4FA54B4272C2F1AD60B;234.
  ) 
 Here is how much of TeX's memory you used:
- 11065 strings out of 475247
- 168204 string characters out of 5757791
+ 11077 strings out of 475247
+ 168352 string characters out of 5757791
  1932785 words of memory out of 5000000
- 32401 multiletter control sequences out of 15000+600000
- 592310 words of font info for 116 fonts, out of 8000000 for 9000
+ 32407 multiletter control sequences out of 15000+600000
+ 593926 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,712b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -850,9 +858,9 @@ rw/helvetic/uhvr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmb8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (2 pages, 130002 bytes).
+Output written on ecrc-template.pdf (2 pages, 132485 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
