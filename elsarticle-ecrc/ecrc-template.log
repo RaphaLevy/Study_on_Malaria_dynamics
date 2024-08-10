@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  10 AUG 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  10 AUG 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,20 +649,44 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen170
+\captionmargin=\dimen171
+\caption@leftmargin=\dimen172
+\caption@rightmargin=\dimen173
+\caption@width=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
+Package caption Info: elsarticle document class detected.
+
+(C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-elsarti
+cle.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
+Package caption Info: hyperref package is loaded.
+)
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count293
+\c@r@tfl@t=\count295
 \rotFPtop=\skip58
 \rotFPbot=\skip59
 \rot@float@box=\box57
 \rot@mess@toks=\toks27
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-33.
+34.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -670,7 +694,7 @@ File: ot1txr.fd 2000/12/15 v3.1
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
+\l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box58
 ) (ecrc-template.aux
 
@@ -679,61 +703,61 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `ecrc-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 133.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 134.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-133.
+134.
  (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-133.
+134.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-133.
+134.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-33.
+34.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen170
+\scratchcounter=\count297
+\scratchdimen=\dimen178
 \scratchbox=\box59
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count298
+\nofMParguments=\count299
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen171
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen179
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
 \everyMPtoPDFconversion=\toks29
 )
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -782,39 +806,42 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 133.
+Package hyperref Info: Link coloring OFF on input line 134.
 (ecrc-template.out) (ecrc-template.out)
 \@outlinefile=\write4
 \openout4 = `ecrc-template.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 180.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 181.
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-93.
+94.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-06.
+07.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 206
+LaTeX Font Info:    Trying to load font information for U+msa on input line 207
 .
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 206
+LaTeX Font Info:    Trying to load font information for U+msb on input line 207
 .
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-06.
+07.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -822,21 +849,21 @@ File: utxsyc.fd 2000/12/15 v3.1
 <elsevier-logo-3p.pdf, id=15, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 249.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 250.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 <SDlogo-3p.pdf, id=16, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 249.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 250.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-249.
+250.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 249.
+(Font)              scaled to size 17.09995pt on input line 250.
 
 Overfull \hbox (17.30615pt too wide) has occurred while \output is active
  []\OT1/txss/m/n/18 Mathematical 
@@ -844,11 +871,11 @@ Overfull \hbox (17.30615pt too wide) has occurred while \output is active
 
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 249.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 250.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 249.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 250.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Overfull \hbox (17.30615pt too wide) has occurred while \output is active
@@ -868,32 +895,36 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 ana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
  <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 325--327
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
 
  []
 
@@ -910,13 +941,13 @@ Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
 (rerunfilecheck)             Checksum: 5ADD60B4EAA3A4FA54B4272C2F1AD60B;234.
  ) 
 Here is how much of TeX's memory you used:
- 11761 strings out of 475247
- 177387 string characters out of 5757791
- 1935785 words of memory out of 5000000
- 33072 multiletter control sequences out of 15000+600000
- 595242 words of font info for 121 fonts, out of 8000000 for 9000
+ 13089 strings out of 475247
+ 203329 string characters out of 5757791
+ 1936785 words of memory out of 5000000
+ 34385 multiletter control sequences out of 15000+600000
+ 597934 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,79p,712b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,79p,712b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt8.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfo
 nts/rtcxr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -929,9 +960,9 @@ ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmb8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (3 pages, 143197 bytes).
+Output written on ecrc-template.pdf (3 pages, 146307 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
