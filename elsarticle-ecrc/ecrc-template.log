@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  12 AUG 2024 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  12 AUG 2024 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,55 +897,85 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 [1{C:/Users/ilana/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/il
 ana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
- <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>] [2]
-Overfull \hbox (37.85118pt too wide) in paragraph at lines 291--307
+ <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 29
+4.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 29
+4.
+
+[2] [3]
+Overfull \hbox (37.85118pt too wide) in paragraph at lines 312--328
  [][] 
  []
 
 
-Overfull \hbox (21.32005pt too wide) in paragraph at lines 311--344
+Overfull \hbox (21.32005pt too wide) in paragraph at lines 332--365
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 375--377
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 398--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
  []
 
-[4] [5] (ecrc-template.aux)
+[5]
+Underfull \hbox (badness 2343) in paragraph at lines 410--412
+[]\OT1/txr/m/n/8 J. Oliveira-Ferreira, M. V. Lac-erda, P. Brasil et al., Malari
+a in Brazil: an overview., Malaria Jour-nal, Vol. 9 (1) (2010),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+[6] (ecrc-template.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -958,32 +988,28 @@ Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
 (rerunfilecheck)             Checksum: 4CD88F3660C052BB764916116D8100B9;308.
  ) 
 Here is how much of TeX's memory you used:
- 13109 strings out of 475247
- 203497 string characters out of 5757791
+ 13126 strings out of 475247
+ 203856 string characters out of 5757791
  1939785 words of memory out of 5000000
- 34393 multiletter control sequences out of 15000+600000
+ 34404 multiletter control sequences out of 15000+600000
  597934 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,712b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
- replaced by a fixed one
-
-<C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-tt8.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
-s/rtcxr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/tx
-fonts/rtxi.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/txfonts/rtxmi.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/txfonts/rtxr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/txfonts/txex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/txfonts/txsy.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts
-/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmb8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (5 pages, 153718 bytes).
+ 75i,13n,79p,712b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmtt8.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfo
+nts/rtcxr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+txfonts/rtxi.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/txfonts/rtxmi.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/txfonts/rtxr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/txfonts/txex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/txfonts/txsy.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmb8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on ecrc-template.pdf (6 pages, 160634 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  35 words of extra memory for PDF output out of 10000 (max. 10000000)
 

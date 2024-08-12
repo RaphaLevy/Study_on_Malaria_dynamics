@@ -276,7 +276,28 @@ Based on previous work developed to model the transmission of malaria based on p
 \end{align}
 %\end{gather}
 
-The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix.
+The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}. With the incidence function \cite{Rorato2023} we have that
+
+\begin{align}
+\text{Inc}(d, m, z, t_1, t_2) = \dfrac{\text{Cases}(d, m, z, t_1, t_2)}{\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}} \times 10^5,
+\end{align}
+
+where $\text{Cases}(d, m, z, t_1, t_2)$ is the number of cases of disease $d$ in zone $z$ of municipality 
+$m$, and $t_1$ and $t_2$ are the initial and final years of the interval, while 
+$\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}$ is the population in zone $z$ 
+of municipality $m$ in the middle of the period multiplied by the total number 
+of observation years. In this case, we could indicate as:
+
+\begin{align}
+    \footnotesize{\text{Inc}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008) = \dfrac{\text{Cases}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008)}{\text{Pop}(\text{Manaus}, \text{Rural}, 2006) \times 5 \ \text{years}} \times 10^5}  \\
+    184030.8 = \dfrac{78745}{5\text{Pop}} \times 10^5 \Rightarrow Pop \approx 8558
+\end{align}
+
+Using data on the total population of Manaus in this period, 
+with an incidence of 3106.4 and a number of cases of 262264, the 
+total population of the municipality was estimated to be 1688540 
+inhabitants. According to official census, the resident population was of 1688524 inhabitants \cite{Datasus2006}. Thus, the rural population could be considered as 
+approximately 0.5$\%$ of the municipality's population.
 
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
@@ -372,19 +393,25 @@ $T'$  & Empirical temperature parameter & $^\circ C$ \\ \hline
 %%   \bibitem{key}...
 %%
 
-\bibitem{pimenta_orfano_bahia_duarte_rios-velasquez_melo_pessoa_oliveira_campos_villegas_etal_2015} P. F. P. Pimenta et al., An overview of malaria transmission from the perspective of Amazon \emph{Anopheles vectors}, Memórias do Instituto Oswaldo Cruz, Vol. 110 (1) (2015), 23-47, \href{https://doi.org/10.1590/0074-02760140266}{https://doi.org/10.1590/0074-02760140266}.
+\bibitem{pimenta_orfano_bahia_duarte_rios-velasquez_melo_pessoa_oliveira_campos_villegas_etal_2015} P.F.P. Pimenta et al., An overview of malaria transmission from the perspective of Amazon \emph{Anopheles vectors}, Memórias do Instituto Oswaldo Cruz, Vol. 110 (1) (2015), 23-47, \href{https://doi.org/10.1590/0074-02760140266}{https://doi.org/10.1590/0074-02760140266}.
 \\
-\bibitem{regulation_of_sexual_commitment} G. A. Josling, K. C Williamson, M. Llinás, Regulation of Sexual Commitment and Gametocytogenesis in Malaria Parasites, Annual Review of Microbiology, Vol. 72 (1) (2018), 501-519, \href{https://doi.org/10.1146/annurev-micro-090817-062712}{https://doi.org/10.1146/annurev-micro-090817-062712}.
+\bibitem{regulation_of_sexual_commitment} G.A. Josling, K.C Williamson, M. Llinás, Regulation of Sexual Commitment and Gametocytogenesis in Malaria Parasites, Annual Review of Microbiology, Vol. 72 (1) (2018), 501-519, \href{https://doi.org/10.1146/annurev-micro-090817-062712}{https://doi.org/10.1146/annurev-micro-090817-062712}.
 \\
-\bibitem{silva-nunes_malaria_amazon_2008} M. da Silva-Nunes et al., Malaria on the Amazonian frontier: transmission dynamics, risk factors, spatial distribution, and prospects for control, American Journal of Tropical Medicine and Hygiene, Vol. 79 (4) (2008), 624-635, \href{https://doi.org/10.4269/ajtmh.2008.79.624}{https://doi.org/10.4269/ajtmh.2008.79.624}. 
+\bibitem{silva-nunes_malaria_amazon_2008} M. Silva-Nunes et al., Malaria on the Amazonian frontier: transmission dynamics, risk factors, spatial distribution, and prospects for control, American Journal of Tropical Medicine and Hygiene, Vol. 79 (4) (2008), 624-635, \href{https://doi.org/10.4269/ajtmh.2008.79.624}{https://doi.org/10.4269/ajtmh.2008.79.624}. 
 \\
-\bibitem{DASILVANUNES2012281} M. da Silva-Nunes et al.,  Amazonian malaria: Asymptomatic human reservoirs, diagnostic challenges, environmentally driven changes in mosquito vector populations, and the mandate for sustainable control strategies, Acta Tropica, Vol. 121 (3) (2012), 281-291 , \href{https://doi.org/10.1016/j.actatropica.2011.10.001}{https://doi.org/10.1016/j.actatropica.2011.10.001}.
+\bibitem{DASILVANUNES2012281} M. Silva-Nunes et al.,  Amazonian malaria: Asymptomatic human reservoirs, diagnostic challenges, environmentally driven changes in mosquito vector populations, and the mandate for sustainable control strategies, Acta Tropica, Vol. 121 (3) (2012), 281-291 , \href{https://doi.org/10.1016/j.actatropica.2011.10.001}{https://doi.org/10.1016/j.actatropica.2011.10.001}.
 \\
-\bibitem{Rorato2023} A. C. Rorato, A. P. Dal’Asta, R. M. Lana et al., Trajetorias: a dataset of environmental, epidemiological, and economic indicators for the Brazilian Amazon, Scientific Data, Vol. 10 (1) (2023), 65, \href{https://doi.org/10.1038/s41597-023-01962-1}{https://doi.org/10.1038/s41597-023-01962-1}.
+\bibitem{Rorato2023} A.C. Rorato, A.P. Dal’Asta, R.M. Lana et al., Trajetorias: a dataset of environmental, epidemiological, and economic indicators for the Brazilian Amazon, Scientific Data, Vol. 10 (1) (2023), 65, \href{https://doi.org/10.1038/s41597-023-01962-1}{https://doi.org/10.1038/s41597-023-01962-1}.
 \\
-\bibitem{Parham2010} P. E. Parham, E. Michael, Modelling Climate Change and Malaria Transmission, Modelling Parasite Transmission and Control, Advances in Experimental Medicine and Biology, Vol. 673 (2010), 184-199, \href{https://doi.org/10.1007/978-1-4419-6064-1_13}{https://doi.org/10.1007/978-1-4419-6064-1\_13}.
+\bibitem{Parham2010} P.E.Parham, E. Michael, Modelling Climate Change and Malaria Transmission, Modelling Parasite Transmission and Control, Advances in Experimental Medicine and Biology, Vol. 673 (2010), 184-199, \href{https://doi.org/10.1007/978-1-4419-6064-1_13}{https://doi.org/10.1007/978-1-4419-6064-1\_13}.
 \\
-\bibitem{McCord2016} G. C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459, 470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}
+\bibitem{McCord2016} G.C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459, 470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}.
+\\
+\bibitem{OliveiraFerreira2010} J. Oliveira-Ferreira, M. V. Lacerda, P. Brasil et al., Malaria in Brazil: an overview., Malaria Journal, Vol. 9 (1) (2010), \href{https://doi.org/10.1186/1475-2875-9-115}{https://doi.org/10.1186/1475-2875-9-115}.
+\\
+\bibitem{10.3389/fpubh.2021.647754} C.T. Codeço, A.P. Dal'Asta, A.C. Rorato, R.M. Lana, T.C. Neves, C.S. Andreazzi, M. Barbosa, M.I.S. Escada, D.A. Fernandes, D.L. Rodrigues, I.C. Reis, M. Silva-Nunes, A.B. Gontijo, F.C. Coelho, A.M.V. Monteiro, Epidemiology, Biodiversity, and Technological Trajectories in the Brazilian Amazon: From Malaria to COVID-19, Frontiers in Public Health, Vol. 9 (2021), \href{https://doi.org/10.3389/fpubh.2021.647754}{https://doi.org/10.3389/fpubh.2021.647754}.
+\\
+\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024. \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
 \\
 
 % \end{thebibliography}
