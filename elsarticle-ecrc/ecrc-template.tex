@@ -265,48 +265,83 @@ and the risk of diseases \cite{Rorato2023}.
 \section{Model formulation}
 \label{}
 Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are given as:
-\begin{gather*}
-\begin{aligned}
-\dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \\
-\\
-\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \gamma I_H \\
-\\
-\dfrac{dR_H}{dt} & = \gamma I_H \\
-\\
-\dfrac{dS_M}{dt} & = b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \\
-\\
-\dfrac{dE_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) \\
-\\
-\dfrac{dI_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) - \mu I_M
-\end{aligned}
-\end{gather*}
+%\begin{gather}
+\begin{align}
+\dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \label{eq1}\\
+\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \gamma I_H \label{eq2}\\
+\dfrac{dR_H}{dt} & = \gamma I_H \label{eq3}\\
+\dfrac{dS_M}{dt} & = b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \label{eq4}\\
+\dfrac{dE_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) \label{eq5}\\
+\dfrac{dI_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) - \mu I_M \label{eq6}
+\end{align}
+%\end{gather}
 
-The parameters are given in Table 1, while the variables are given in Table 2.
+The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix.
 
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+\newpage
+\appendix
+\section{Tables}
+\label{}
 \begin{table}[h]
 \caption{List of model parameters.}
 \centering
 \begin{tabular}{|l l l|}
 \hline
-Symbol & Description & Formulation \\ \hline
-$b(R, T)$   & Mosquito birth rate (day$^{-1}$)   & $\dfrac{B_E  p_E(R)  p_L(R,T)  p_P(R)}{(\tau_E + \tau_L(T) + \tau_P)}$   \\  \hline
-$a(T)$   & Biting rate (day$^{-1}$)  & $\dfrac{(T - T_1)}{D_1}$   \\ \hline
-$\mu(T)$   & Mosquito mortality rate per capita (day$^{-1}$)   & $-\log(p(T))$  \\ \hline
-$\tau_M(T)$   & Duration of sporozoite cycle (days)   & $\dfrac{DD}{(T - T_{min})}$   \\ \hline
-$\tau_L(T)$   & Duration of larval development phase (days)   & $\dfrac{1}{c_1T + c_2}$  \\ \hline
+Parameter & Definition & Formulation \\ \hline
+$b(R, T)$   & Mosquito birth rate (days$^{-1}$)   & ${B_E  p_E(R)  p_L(R,T)  p_P(R)}/{(\tau_E + \tau_L(T) + \tau_P)}$   \\  \hline
+$a(T)$   & Biting rate (days$^{-1}$)  & ${(T - T_1)}/{D_1}$   \\ \hline
+$\mu(T)$   & Mosquito mortality rate per capita (days$^{-1}$)   & $-\log(p(T))$  \\ \hline
+$\tau_M(T)$   & Duration of sporozoite cycle (days)   & ${DD}/{(T - T_{min})}$   \\ \hline
+$\tau_L(T)$   & Duration of larval development phase (days)   & ${1}/{c_1T + c_2}$  \\ \hline
 $p(T)$   & Daily mosquito survival rate   & $e^{(-1 / (AT^2 + BT + C))}$ \\  \hline
-$p_L(R)$   & Probability of larval survival dependent on rainfall   & $(\dfrac{4p_{ML}}{R_L^2})R(R_L - R)$  \\  \hline
+$p_L(R)$   & Probability of larval survival dependent on rainfall   & $({4p_{ML}}/{R_L^2})R(R_L - R)$  \\  \hline
 $p_L(T)$   & Probability of larval survival dependent on temperature   & $e^{-(c_1T + c_2)}$  \\ \hline
 $p_L(R, T))$   &Probability of larval survival   & $p_L(R)p_L(T)$   \\  \hline
-$l({\tau_M})(T)$   &  Probability of mosquito survival during sporozoite cycle (day$^{-1}$)  & $p(T)^{\tau_M(T)}$  \\ \hline
+$l({\tau_M})(T)$   &  Probability of mosquito survival during sporozoite cycle (days$^{-1}$)  & $p(T)^{\tau_M(T)}$  \\ \hline
 $M(t)$   &  Total population of mosquitos  & $S_M(t) + E_M(t) + I_M(t)$   \\ \hline
 $N(t)$   & Total population of humans   & $S_H(t) + I_H(t) + R_H(t)$   \\ \hline
 \end{tabular}
 \end{table}
-
-%% The Appendices part is started with the command \appendix;
-%% appendix sections are then done as normal sections
-%% \appendix
+\begin{table}[h]
+\caption{List of model variables.}
+\centering
+\begin{tabular}{|l l l|}
+\hline
+Symbol & Definition & Units \\ \hline
+$b_1$  & Proportion of bites from susceptible mosquitoes on infected humans that result in infection & Dimensionless \\  \hline
+$b_2$   & Proportion of bites from infected mosquitoes on susceptible humans that result in infection & Dimensionless \\ \hline
+$\gamma$ &  1/Average duration of infectiousness in humans & days$^{-1}$  \\ \hline
+$T_1$  & Mean temperature in the absence of seasonality & $^\circ C$ \\ \hline
+$T_2$  & Amplitude of seasonal variability in temperature & Dimensionless \\ \hline
+$R_1$  & Average monthly precipitation in the absence of seasonality & mm \\ \hline
+$R_2$  & Amplitude of seasonal variability in precipitation & Dimensionless \\ \hline
+$\omega_1$  & Angular frequency of seasonal oscillations in temperature & months$^{-1}$ \\ \hline
+$\omega_2$  & Angular frequency of seasonal oscillations in precipitation & months$^{-1}$ \\ \hline
+$\phi_1$  & Phase lag of temperature variability (phase shift) & Dimensionless \\ \hline
+$\phi_2$  & Phase lag of precipitation variability (phase shift) & Dimensionless \\ \hline
+$B_E$  & Number of eggs laid per adult per oviposition & Dimensionless \\ \hline
+$p_{ME}$  & Maximum probability of egg survival & Dimensionless \\ \hline
+$p_{ML}$  & Maximum probability of larval survival & Dimensionless \\ \hline
+$p_{MP}$  & Maximum probability of pupal survival & Dimensionless \\ \hline
+$\tau_E$  & Duration of the egg development phase & days \\ \hline
+$b_3$  & Infection rate in exposed mosquitoes ($1/\tau_M(T)$) &  days$^{-1}$ \\ \hline
+$\tau_P$  & Duration of the pupal development phase & days \\ \hline
+$R_L$  & Rainfall threshold until breeding sites are eliminated, removing immature individuals & mm \\ \hline
+$T_{min}$  & Minimum temperature, below which there is no development of the parasite: 14.5 & $^\circ C$ \\ \hline
+$DD$  & Degree-days for parasite development.
+             ``Sum of heat" for maturation: 105 \cite{McCord2016} & $^\circ C \ \text{days}$ \\ \hline
+$A$  & Empirical sensitivity parameter & ($^\circ C^2 \ \text{days})^{-1}$ \\ \hline
+$B$  & Empirical sensitivity parameter & ($^\circ C \ \text{days})^{-1}$ \\ \hline
+$C$  & Empirical sensitivity parameter & days$^{-1}$ \\ \hline
+$D_1$  & Empirical sensitivity parameter: 36.5 & $^\circ C \ \text{days}$ \\ \hline
+$c_1$  & Empirical sensitivity parameter & $(^\circ C \ \text{days})^{-1}$ \\ \hline
+$c_2$  & Empirical sensitivity parameter & days$^{-1}$ \\ \hline
+$T'$  & Empirical temperature parameter & $^\circ C$ \\ \hline
+\end{tabular}
+\end{table}
 
 %% \section{}
 %% \label{}
@@ -348,6 +383,8 @@ $N(t)$   & Total population of humans   & $S_H(t) + I_H(t) + R_H(t)$   \\ \hline
 \bibitem{Rorato2023} A. C. Rorato, A. P. Dal’Asta, R. M. Lana et al., Trajetorias: a dataset of environmental, epidemiological, and economic indicators for the Brazilian Amazon, Scientific Data, Vol. 10 (1) (2023), 65, \href{https://doi.org/10.1038/s41597-023-01962-1}{https://doi.org/10.1038/s41597-023-01962-1}.
 \\
 \bibitem{Parham2010} P. E. Parham, E. Michael, Modelling Climate Change and Malaria Transmission, Modelling Parasite Transmission and Control, Advances in Experimental Medicine and Biology, Vol. 673 (2010), 184-199, \href{https://doi.org/10.1007/978-1-4419-6064-1_13}{https://doi.org/10.1007/978-1-4419-6064-1\_13}.
+\\
+\bibitem{McCord2016} G. C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459, 470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}
 \\
 
 % \end{thebibliography}
