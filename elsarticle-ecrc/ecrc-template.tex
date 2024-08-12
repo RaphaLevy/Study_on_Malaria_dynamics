@@ -289,17 +289,17 @@ The parameters are given in Table 1, while the variables are given in Table 2.
 \begin{tabular}{|l l l|}
 \hline
 Symbol & Description & Formulation \\ \hline
-$b(R, T)$   & Mosquito birth rate (day$^{-1}$)   & $\dfrac{B_E  p_E(R)  p_L(R,T)  p_P(R)}{(\tau_E + \tau_L(T) + \tau_P)}$   \\ 
-$a(T)$   & Biting rate (day$^{-1}$)  & $\dfrac{(T - T_1)}{D_1}$   \\ 
-$\mu(T)$   & Mosquito mortality rate per capita (day$^{-1}$)   & $-\log(p(T))$  \\ 
-$\tau_M(T)$   & Duration of sporozoite cycle (days)   & $\dfrac{DD}{(T - T_{min})}$   \\ 
-$\tau_L(T)$   & Duration of larval development phase (days)   & $\dfrac{1}{c_1T + c_2}$  \\
-$p(T)$   & Daily mosquito survival rate   & $e^{(-1 / (AT^2 + BT + C))}$ \\ 
-$p_L(R)$   & Probability of larval survival dependent on rainfall   & $(\dfrac{4p_{ML}}{R_L^2})R(R_L - R)$  \\ 
-$p_L(T)$   & Probability of larval survival dependent on temperature   & $e^{-(c_1T + c_2)}$  \\ 
-$p_L(R, T))$   &Probability of larval survival   & $p_L(R)p_L(T)$   \\ 
-$l({\tau_M})(T)$   &  Probability of mosquito survival during sporozoite cycle (day$^{-1}$)  & $p(T)^{\tau_M(T)}$  \\ 
-$M(t)$   &  Total population of mosquitos  & $S_M(t) + E_M(t) + I_M(t)$   \\ 
+$b(R, T)$   & Mosquito birth rate (day$^{-1}$)   & $\dfrac{B_E  p_E(R)  p_L(R,T)  p_P(R)}{(\tau_E + \tau_L(T) + \tau_P)}$   \\  \hline
+$a(T)$   & Biting rate (day$^{-1}$)  & $\dfrac{(T - T_1)}{D_1}$   \\ \hline
+$\mu(T)$   & Mosquito mortality rate per capita (day$^{-1}$)   & $-\log(p(T))$  \\ \hline
+$\tau_M(T)$   & Duration of sporozoite cycle (days)   & $\dfrac{DD}{(T - T_{min})}$   \\ \hline
+$\tau_L(T)$   & Duration of larval development phase (days)   & $\dfrac{1}{c_1T + c_2}$  \\ \hline
+$p(T)$   & Daily mosquito survival rate   & $e^{(-1 / (AT^2 + BT + C))}$ \\  \hline
+$p_L(R)$   & Probability of larval survival dependent on rainfall   & $(\dfrac{4p_{ML}}{R_L^2})R(R_L - R)$  \\  \hline
+$p_L(T)$   & Probability of larval survival dependent on temperature   & $e^{-(c_1T + c_2)}$  \\ \hline
+$p_L(R, T))$   &Probability of larval survival   & $p_L(R)p_L(T)$   \\  \hline
+$l({\tau_M})(T)$   &  Probability of mosquito survival during sporozoite cycle (day$^{-1}$)  & $p(T)^{\tau_M(T)}$  \\ \hline
+$M(t)$   &  Total population of mosquitos  & $S_M(t) + E_M(t) + I_M(t)$   \\ \hline
 $N(t)$   & Total population of humans   & $S_H(t) + I_H(t) + R_H(t)$   \\ \hline
 \end{tabular}
 \end{table}
