@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  15 AUG 2024 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  15 AUG 2024 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,12 +907,12 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 29
 4.
 
 [2] [3]
-Overfull \hbox (37.85118pt too wide) in paragraph at lines 343--359
+Overfull \hbox (37.85118pt too wide) in paragraph at lines 370--386
  [][] 
  []
 
 
-Overfull \hbox (21.32005pt too wide) in paragraph at lines 363--396
+Overfull \hbox (21.32005pt too wide) in paragraph at lines 390--423
  [][] 
  []
 
@@ -920,69 +920,90 @@ Overfull \hbox (21.32005pt too wide) in paragraph at lines 363--396
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--435
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--437
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--441
+Underfull \hbox (badness 10000) in paragraph at lines 466--468
 
  []
 
 [5]
-Underfull \hbox (badness 2343) in paragraph at lines 441--443
+Underfull \hbox (badness 2343) in paragraph at lines 468--470
 []\OT1/txr/m/n/8 J. Oliveira-Ferreira, M. V. Lac-erda, P. Brasil et al., Malari
 a in Brazil: an overview., Malaria Jour-nal, Vol. 9 (1) (2010),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--445
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
 []\OT1/txr/m/n/8 Censo - S[]eries hist[]oricas. Brasil / Ama-zonas / Man-aus, I
-BGE, ac-cessed 15 Au-gust 2024.
+BGE, ac-cessed 15 Au-gust 2024,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 476--478
+[]\OT1/txr/m/n/8 D. E. Nor-ris, Mosquito-borne Dis-eases as a Con-se-quence of 
+Land Use Change, Eco-Health, Vol. 1 (1) (2004), 19-24,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
@@ -999,10 +1020,10 @@ Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
 (rerunfilecheck)             Checksum: 4CD88F3660C052BB764916116D8100B9;308.
  ) 
 Here is how much of TeX's memory you used:
- 13131 strings out of 475247
- 203928 string characters out of 5757791
+ 13144 strings out of 475247
+ 204227 string characters out of 5757791
  1939785 words of memory out of 5000000
- 34407 multiletter control sequences out of 15000+600000
+ 34417 multiletter control sequences out of 15000+600000
  597934 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,712b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1018,9 +1039,9 @@ ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmb8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (6 pages, 162667 bytes).
+Output written on ecrc-template.pdf (6 pages, 166362 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  35 words of extra memory for PDF output out of 10000 (max. 10000000)
 

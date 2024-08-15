@@ -325,10 +325,37 @@ $2004$ & $7717$ \\
  \hline
 \end{tabular}
 \end{table}
-As there were population data for the years 2000, 2007, and 2010, 
+Given there was only population data for the years of 2000, 2007, and 2010, 
 interpolations were performed with different initial and final 
 points, using data from 2000 to 2007 for 2004-2007 and from 2007 
 to 2010 for 2008-2009, ensuring the correct use of the 2007 population.
+
+As for the theory behind environmental factors, 
+according to \cite{Norris2004}, the removal of tree canopies allowed 
+the resurgence of malaria in South America. In deforested areas, 
+without tree canopies covering the ground, water puddles under sunlight 
+attract mosquitoes of the species $Anopheles \ darlingi$, the main vector 
+related to human malaria in the Amazon \cite{infoAnopheles}. They are 
+usually less commonly found in still intact forests. This is 
+because light and heat favor the development of larvae and 
+pupae, in addition to a greater availability of algae for 
+larval feeding \cite{article_alteracoesambientais}. The increase 
+in ambient temperature also favors the vectorial capacity of 
+mosquitoes. 
+
+Deforestation also attracts and brings humans closer 
+to take part in logging, agriculture, and road construction 
+activities, bringing individuals infected with $Plasmodium$ to 
+an area where both the vector and the environment have already 
+been modified to favor transmission. Furthermore, agriculture 
+also promotes river sedimentation, providing suitable environments 
+for breeding sites. Therefore, it can be considered a relevant 
+change for the model to take into account deforestation, the 
+increase in survival probabilities of eggs, larvae, and pupae, 
+as well as increasing the proportion of bites that lead to infection, 
+due to the increased human population density in areas near mosquito 
+breeding sites.
+
 
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
@@ -436,15 +463,21 @@ $T'$  & Empirical temperature parameter & $^\circ C$ \\ \hline
 \\
 \bibitem{Parham2010} P.E.Parham, E. Michael, Modelling Climate Change and Malaria Transmission, Modelling Parasite Transmission and Control, Advances in Experimental Medicine and Biology, Vol. 673 (2010), 184-199, \href{https://doi.org/10.1007/978-1-4419-6064-1_13}{https://doi.org/10.1007/978-1-4419-6064-1\_13}.
 \\
-\bibitem{McCord2016} G.C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459, 470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}.
+\bibitem{McCord2016} G.C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459-470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}.
 \\
 \bibitem{OliveiraFerreira2010} J. Oliveira-Ferreira, M. V. Lacerda, P. Brasil et al., Malaria in Brazil: an overview., Malaria Journal, Vol. 9 (1) (2010), \href{https://doi.org/10.1186/1475-2875-9-115}{https://doi.org/10.1186/1475-2875-9-115}.
 \\
 \bibitem{10.3389/fpubh.2021.647754} C.T. Codeço, A.P. Dal'Asta, A.C. Rorato, R.M. Lana, T.C. Neves, C.S. Andreazzi, M. Barbosa, M.I.S. Escada, D.A. Fernandes, D.L. Rodrigues, I.C. Reis, M. Silva-Nunes, A.B. Gontijo, F.C. Coelho, A.M.V. Monteiro, Epidemiology, Biodiversity, and Technological Trajectories in the Brazilian Amazon: From Malaria to COVID-19, Frontiers in Public Health, Vol. 9 (2021), \href{https://doi.org/10.3389/fpubh.2021.647754}{https://doi.org/10.3389/fpubh.2021.647754}.
 \\
-\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024. \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
+\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024, \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
 \\
-\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed 15 August 2024. \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\\
+\bibitem{Norris2004} D. E. Norris, Mosquito-borne Diseases as a Consequence of Land Use Change, EcoHealth, Vol. 1 (1) (2004), 19-24, \href{https://doi.org/10.1007/s10393-004-0008-7}{https://doi.org/10.1007/s10393-004-0008-7}.
+\\
+\bibitem{infoAnopheles} Anopheles, Fiocruz Rondônia, accessed 15 August 2024, \href{https://www.rondonia.fiocruz.br/pivem/anopheline/}{https://www.rondonia.fiocruz.br/pivem/anopheline/}.
+\\
+\bibitem{article_alteracoesambientais} M. Silva-Nunes, Environmental changes impact in malaria transmition and prospects for the disease control in brazilian amazon rural settlements, Oecologia Australis, Vol. 14 (3) (2010), 603-622, \href{https://revistas.ufrj.br/index.php/oa/article/view/7101}{https://revistas.ufrj.br/index.php/oa/article/view/7101}.
 \\
 
 
