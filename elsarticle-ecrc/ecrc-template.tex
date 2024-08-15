@@ -294,10 +294,41 @@ of observation years. In this case, we could indicate as:
 \end{align}
 
 Using data on the total population of Manaus in this period, 
-with an incidence of 3106.4 and a number of cases of 262264, the 
-total population of the municipality was estimated to be 1688540 
-inhabitants. According to official census, the resident population was of 1688524 inhabitants \cite{Datasus2006}. Thus, the rural population could be considered as 
+with an incidence of 3106.429047 and a number of cases of 262264, the 
+total population of the municipality was estimated to be 1688524 
+inhabitants, which corresponds to the value found in the official census \cite{Datasus2006}. Thus, the rural population could be considered as 
 approximately 0.5$\%$ of the municipality's population.
+
+Having estimated the percentage size of the rural population 
+in the city, it was possible to calculate this population for 
+each of the years of the analysis through linear interpolation 
+using historical series data from IBGE \cite{popIBGE}:
+
+\begin{table}[h]
+\caption{Manaus' rural population from 2004 to 2009.}
+\centering
+\begin{tabular}{|c | c|}
+ \hline
+ \textbf{Year} & \textbf{Estimated rural population}\\ 
+ \hline
+$2004$ & $7717$ \\
+ \hline
+ $2005$ & $7889$ \\
+ \hline
+ $2006$ & $8061$ \\
+ \hline
+ $2007$ & $8233$ \\
+ \hline
+ $2008$ & $8492$ \\
+ \hline
+ $2009$ & $8751$ \\
+ \hline
+\end{tabular}
+\end{table}
+As there were population data for the years 2000, 2007, and 2010, 
+interpolations were performed with different initial and final 
+points, using data from 2000 to 2007 for 2004-2007 and from 2007 
+to 2010 for 2008-2009, ensuring the correct use of the 2007 population.
 
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
@@ -413,6 +444,9 @@ $T'$  & Empirical temperature parameter & $^\circ C$ \\ \hline
 \\
 \bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024. \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
 \\
+\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed 15 August 2024. \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\\
+
 
 % \end{thebibliography}
 \end{thebibliography}
