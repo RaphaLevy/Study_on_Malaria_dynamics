@@ -1,0 +1,582 @@
+%% 
+%% Copyright 2019-2024 Elsevier Ltd
+%% 
+%% Version 2.4
+%% 
+%% This file is part of the 'CAS Bundle'.
+%% --------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'CAS Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for cas-dc documentclass for 
+%% double column output.
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\documentclass[a4paper,fleqn]{cas-dc}
+
+%\usepackage[authoryear,longnamesfirst]{natbib}
+%\usepackage[authoryear]{natbib}
+\usepackage[numbers]{natbib}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{caption}
+
+%%%Author definitions
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+\tsc{EP}
+\tsc{PMS}
+\tsc{BEC}
+\tsc{DE}
+%%%
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\shorttitle{Utilization of environmental and epidemiological indicators in the study of malaria dynamics}
+\shortauthors{R. F. Levy et~al.}
+
+\title [mode = title]{Utilization of environmental and epidemiological indicators in the study of malaria dynamics}                      
+
+%%%%% FOOTNOTES %%%%%
+%\tnotemark[1,2]
+
+%%%%% FOOTNOTES %%%%%
+%\tnotetext[1]{This document is the results of the research
+%   project funded by the National Science Foundation.}
+
+%\tnotetext[2]{The second title footnote which is a longer text matter
+%   to fill through the whole text width and overflow into
+%   another line in the footnotes area of the first page.}
+
+\author[1]{Raphael Felberg Levy}
+\ead{raphael.levy147@gmail.com}
+%\author[1,3]{J.K. Krishnan}[type=editor,
+%                        auid=000,bioid=1,
+%                        prefix=Sir,
+%                        role=Researcher,
+%                       orcid=0000-0001-0000-0000]
+%\cormark[1]
+%\fnmark[1]
+%\ead{jkk@example.in}
+%\ead[url]{www.jkkrishnan.in}
+
+%\credit{Conceptualization of this study, Methodology, Software}
+
+%\address[1]{, Street 129, 1043 NX Amsterdam, The Netherlands}
+\affiliation[1]{organization={School of Applied Mathematics, EMAp FGV},
+                addressline={Praia de Botafogo 190}, 
+                city={Rio de Janeiro},
+%               citysep={}, % Uncomment if no comma needed between city and postcode
+                postcode={22250-145}, 
+                state={RJ},
+                country={Brazil}}
+
+%\author[2,4]{Han Thane}[style=chinese]
+\author[1]{Flavio Codeço Coelho}
+\ead{flavio.codeco.coelho@fgv.br}
+
+
+
+%\credit{Data curation, Writing - Original draft preparation}
+
+%\affiliation[2]{organization={World Scientific University},
+%                addressline={Street 29}, 
+%                postcode={1011 NX}, 
+%                postcodesep={}, 
+%                city={Amsterdam},
+%                country={The Netherlands}}
+
+%\author[1,3]{T. Rafeeq}
+%\cormark[2]
+%\fnmark[1,3]
+%\ead{t.rafeeq@example.in}
+%\ead[URL]{www.campus.in}
+
+%\affiliation[3]{organization={University of Intelligent Studies},
+%                addressline={Street 15}, 
+%                city={Jabaldesh},
+%                postcode={825001}, 
+%                state={Orissa}, 
+%                country={India}}
+
+%\cortext[cor1]{Corresponding author}
+%\cortext[cor2]{Principal corresponding author}
+%\fntext[fn1]{This is the first author footnote, but is common to third
+%  author as well.}
+%\fntext[fn2]{Another author footnote, this is a very long footnote and
+%  it should be a really long footnote. But this footnote is not yet
+%  sufficiently long enough to make two lines of footnote text.}
+
+%%%% FOOTNOTE %%%%
+%\nonumnote{This note has no numbers. In this work we demonstrate $a_b$
+%  the formation Y\_1 of a new type of polariton on the interface
+%  between a cuprous oxide slab and a polystyrene micro-sphere placed
+%  on the slab.
+% }
+
+
+\begin{abstract}
+%This template helps you to create a properly formatted \LaTeX\ manuscript.
+This paper aims to analyze the behavior of malaria transmission in the Amazon region based on climatic and environmental changes, such as temperature, precipitation and deforestation, through proposed modifications to the SIR and SEI models, in order to contribute to the study of applications of external effects on the evolution of the disease. 
+The Trajetórias Project, developed by the Synthesis Center 
+on Biodiversity and Ecosystem Services (SinBiose/CNPq) was used as an initial reference for the study. This work employs a modified SIR/SEI methodology, based on work from Parham and Michael (2010) which takes into account rainfall and temperature, with further modifications to avoid delay equations. Primary results show that the model is too sensible on some parameters, and using values indicated by other papers did not give the same results, opening up future work to compare the modified model equations with the originals. With the obtained results, it was possible to verify a strong effect caused by increased contact of host and vectors on the transmission of the disease. 
+
+\end{abstract}
+
+
+%\noindent\texttt{\textbackslash begin{abstract}} \dots 
+%\texttt{\textbackslash end{abstract}} and
+%\verb+\begin{keyword}+ \verb+...+ \verb+\end{keyword}+ 
+%which contain the abstract and keywords respectively. 
+
+%\noindent Each keyword shall be separated by a \verb+\sep+ command.
+
+
+
+%\begin{graphicalabstract}
+%\includegraphics{figs/cas-grabs.pdf}
+%\end{graphicalabstract}
+
+%\begin{highlights}
+%\item Research highlights item 1
+%\item Research highlights item 2
+%\item Research highlights item 3
+%\end{highlights}
+
+\begin{keywords}
+Biological modelling \sep Malaria \sep Amazon \sep SIR \sep SEI
+\end{keywords}
+
+
+\maketitle
+
+\section{Introduction}
+
+The Amazon is one of the largest and most biodiverse tropical forests 
+in the world, harboring numerous species of plants, animals, and 
+microorganisms, including vectors and pathogens responsible for the 
+transmission of various diseases. Among them, one of the most common 
+is malaria, caused by protozoa of the genus \textit{Plasmodium}, 
+transmitted by the bite of the infected female mosquito of the genus 
+\textit{Anopheles}. It is present in 22 American countries, but the 
+areas with the highest risk of infection are located in the Amazon 
+region, encompassing nine countries, which accounted for $68\%$ of 
+infection cases in 
+2011 \cite{pimenta_orfano_bahia_duarte_rios-velasquez_melo_pessoa_oliveira_campos_villegas_etal_2015}. 
+Although malaria is prevalent in the Americas, it is 
+not limited to this continent and is found in countries in Africa and Asia, 
+resulting in more than two million cases of infection and 445,000 deaths 
+worldwide in 2016 \cite{regulation_of_sexual_commitment}.
+
+Notably, vector-borne disease transmission is closely related to 
+environmental changes that interfere with the ecosystem of both 
+transmitting organisms and affected organisms. In the case of the 
+Amazon, agricultural and livestock settlements are among the factors
+that most favor disease transmission, both due to the deforestation 
+they cause for establishment and the clustering of people in environments 
+close to the vector's habitat \cite{silva-nunes_malaria_amazon_2008}, 
+especially by clustering non-immune migrants near these natural and 
+artificial breeding sites \cite{DASILVANUNES2012281}.
+
+Additionally, other factors such as rainfall, wildfires, and mining 
+also significantly influence disease transmission in the region. These 
+events result in habitat loss, ecosystem fragmentation, and climate 
+changes, affecting the distribution and abundance of vectors and hosts, 
+as well as their interaction with pathogens. Furthermore, population growth 
+and urbanization also play a crucial role in disease spread, increasing 
+human exposure to vectors and infection risks.
+
+In this context, this work aims to investigate vector-borne disease 
+transmission in the Amazon and analyze how environmental impacts 
+influence the dynamics of malaria transmission, the ecological and 
+socioeconomic factors affecting this spread, and possible prevention 
+and control strategies. The main reference for this research is the 
+Trajetórias Project, developed by the Center for Biodiversity and 
+Ecosystem Services (SinBiose/CNPq), which is a dataset including 
+environmental, epidemiological, economic, and socioeconomic indicators 
+for all municipalities in the Legal Amazon, analyzing the spatial and 
+temporal relationship between economic trajectories linked to the dynamics 
+of agrarian systems, whether they are family-based rural or large-scale 
+agricultural and livestock production, the availability of natural resources, 
+and the risk of diseases \cite{Rorato2023}.
+
+\section{Model formulation}
+
+Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are given as:
+%\begin{gather}
+\begin{align}
+\dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \label{eq1}\\
+\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \gamma I_H \label{eq2}\\
+\dfrac{dR_H}{dt} & = \gamma I_H \label{eq3}\\
+\dfrac{dS_M}{dt} & = b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \label{eq4}\\
+\dfrac{dE_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) \label{eq5}\\
+\dfrac{dI_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) - \mu I_M \label{eq6}
+\end{align}
+%\end{gather}
+
+The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}. With the incidence function \cite{Rorato2023} we have that
+
+\begin{align}
+\text{Inc}(d, m, z, t_1, t_2) = \dfrac{\text{Cases}(d, m, z, t_1, t_2)}{\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}} \times 10^5,
+\end{align}
+
+where $\text{Cases}(d, m, z, t_1, t_2)$ is the number of cases of disease $d$ in zone $z$ of municipality 
+$m$, and $t_1$ and $t_2$ are the initial and final years of the interval, while 
+$\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}$ is the population in zone $z$ 
+of municipality $m$ in the middle of the period multiplied by the total number 
+of observation years. In this case, we could indicate as:
+
+\begin{align}
+    \footnotesize{\text{Inc}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008) = } 
+\footnotesize{\dfrac{\text{Cases}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008)}{\text{Pop}(\text{Manaus}, \text{Rural}, 2006) \times 5 \ \text{years}} \times 10^5}  \\
+    184030.8 = \dfrac{78745}{5\text{Pop}} \times 10^5 \Rightarrow Pop \approx 8558
+\end{align}
+
+Using data on the total population of Manaus in this period, 
+with an incidence of 3106.429047 and a number of cases of 262264, the 
+total population of the municipality was estimated to be 1688524 
+inhabitants, which corresponds to the value found in the official census \cite{Datasus2006}. Thus, the rural population could be considered as 
+approximately 0.5$\%$ of the municipality's population.
+
+Having estimated the percentage size of the rural population 
+in the city, it was possible to calculate this population for 
+each of the years of the analysis through linear interpolation 
+using historical series data from IBGE \cite{popIBGE}:
+
+%\begin{table}[h]
+%\caption{Manaus' rural population from 2004 to 2009.}
+%\centering
+%\begin{tabular}{|c | c|}
+ %\hline
+ %\textbf{Year} & \textbf{Estimated rural population}\\ 
+% \hline
+%$2004$ & $7717$ \\
+% \hline
+%$ $2005$ & $7889$ \\
+ %\hline
+% $2006$ & $8061$ \\
+% \hline
+ %$2007$ & $8233$ \\
+ %\hline
+% $2008$ & $8492$ \\
+% \hline
+% $2009$ & $8751$ \\
+% \hline
+%\end{tabular}
+%\end{table}
+Given there was only population data for the years of 2000, 2007, and 2010, 
+interpolations were performed with different initial and final 
+points, using data from 2000 to 2007 for 2004-2007 and from 2007 
+to 2010 for 2008-2009, ensuring the correct use of the 2007 population.
+
+As for the theory behind environmental factors, 
+according to \cite{Norris2004}, the removal of tree canopies allowed 
+the resurgence of malaria in South America. In deforested areas, 
+without tree canopies covering the ground, water puddles under sunlight 
+attract mosquitoes of the species $Anopheles \ darlingi$, the main vector 
+related to human malaria in the Amazon \cite{infoAnopheles}. They are 
+usually less commonly found in still intact forests. This is 
+because light and heat favor the development of larvae and 
+pupae, in addition to a greater availability of algae for 
+larval feeding \cite{article_alteracoesambientais}. The increase 
+in ambient temperature also favors the vectorial capacity of 
+mosquitoes. 
+
+Deforestation also attracts and brings humans closer 
+to take part in logging, agriculture, and road construction 
+activities, bringing individuals infected with $Plasmodium$ to 
+an area where both the vector and the environment have already 
+been modified to favor transmission. Furthermore, agriculture 
+also promotes river sedimentation, providing suitable environments 
+for breeding sites. Therefore, it can be considered a relevant 
+change for the model to take into account deforestation, the 
+increase in survival probabilities of eggs, larvae, and pupae, 
+as well as increasing the proportion of bites that lead to infection, 
+due to the increased human population density in areas near mosquito 
+breeding sites.
+
+\section{Front matter}
+
+The author names and affiliations could be formatted in two ways:
+\begin{enumerate}[(1)]
+\item Group the authors per affiliation.
+\item Use footnotes to indicate the affiliations.
+\end{enumerate}
+See the front matter of this document for examples. 
+You are recommended to conform your choice to the journal you 
+are submitting to.
+
+\section{Bibliography styles}
+
+There are various bibliography styles available. You can select the
+style of your choice in the preamble of this document. These styles are
+Elsevier styles based on standard styles like Harvard and Vancouver.
+Please use Bib\TeX\ to generate your bibliography and include DOIs
+whenever available.
+
+Here are two sample references: 
+\cite{Fortunato2010}
+\cite{Fortunato2010,NewmanGirvan2004}
+\cite{Fortunato2010,Vehlowetal2013}
+
+\section{Floats}
+{Figures} may be included using the command,\linebreak 
+\verb+\includegraphics+ in
+combination with or without its several options to further control
+graphic. \verb+\includegraphics+ is provided by {graphic[s,x].sty}
+which is part of any standard \LaTeX{} distribution.
+{graphicx.sty} is loaded by default. \LaTeX{} accepts figures in
+the postscript format while pdf\LaTeX{} accepts {*.pdf},
+{*.mps} (metapost), {*.jpg} and {*.png} formats. 
+pdf\LaTeX{} does not accept graphic files in the postscript format. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.9\columnwidth]{figs/cas-munnar-2024.jpg}
+	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
+	\label{FIG:1}
+\end{figure}
+
+
+The \verb+table+ environment is handy for marking up tabular
+material. If users want to use {multirow.sty},
+{array.sty}, etc., to fine control/enhance the tables, they
+are welcome to load any package of their choice and
+{cas-dc.cls} will work in combination with all loaded
+packages.
+
+\begin{table}[width=.9\linewidth,cols=4,pos=h]
+\caption{This is a test caption. This is a test caption. This is a test
+caption. This is a test caption. Use \{table*\} instead of \{table\} if you
+want a two column spanned table.}\label{tbl1}
+\begin{tabular*}{\tblwidth}{@{} LLLL@{} }
+\toprule
+Col 1 & Col 2 & Col 3 & Col4\\
+\midrule
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\section[Theorem and ...]{Theorem and theorem like environments}
+
+{cas-dc.cls} provides a few shortcuts to format theorems and
+theorem-like environments with ease. In all commands the options that
+are used with the \verb+\newtheorem+ command will work exactly in the same
+manner. {cas-dc.cls} provides three commands to format theorem or
+theorem-like environments: 
+
+\begin{verbatim}
+ \newtheorem{theorem}{Theorem}
+ \newtheorem{lemma}[theorem]{Lemma}
+ \newdefinition{rmk}{Remark}
+ \newproof{pf}{Proof}
+ \newproof{pot}{Proof of Theorem \ref{thm2}}
+\end{verbatim}
+
+
+The \verb+\newtheorem+ command formats a
+theorem in \LaTeX's default style with italicized font, bold font
+for theorem heading and theorem number at the right hand side of the
+theorem heading.  It also optionally accepts an argument which
+will be printed as an extra heading in parentheses. 
+
+\begin{verbatim}
+  \begin{theorem} 
+   For system (8), consensus can be achieved with 
+   $\|T_{\omega z}$ ...
+     \begin{eqnarray}\label{10}
+     ....
+     \end{eqnarray}
+  \end{theorem}
+\end{verbatim}  
+
+
+\newtheorem{theorem}{Theorem}
+
+\begin{theorem}
+For system (8), consensus can be achieved with 
+$\|T_{\omega z}$ ...
+\begin{eqnarray}\label{10}
+....
+\end{eqnarray}
+\end{theorem}
+
+The \verb+\newdefinition+ command is the same in
+all respects as its \verb+\newtheorem+ counterpart except that
+the font shape is roman instead of italic.  Both
+\verb+\newdefinition+ and \verb+\newtheorem+ commands
+automatically define counters for the environments defined.
+
+The \verb+\newproof+ command defines proof environments with
+upright font shape.  No counters are defined. 
+
+\begin{figure*}
+	\centering
+	\includegraphics[width=.9\textwidth]{figs/cas-munnar-2024.jpg}
+	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
+	\label{FIG:2}
+\end{figure*}
+
+
+\section[Enumerated ...]{Enumerated and Itemized Lists}
+{cas-dc.cls} provides an extended list processing macros
+which makes the usage a bit more user friendly than the default
+\LaTeX{} list macros.   With an optional argument to the
+\verb+\begin{enumerate}+ command, you can change the list counter
+type and its attributes.
+
+\begin{verbatim}
+ \begin{enumerate}[1.]
+ \item The enumerate environment starts with an optional
+   argument `1.', so that the item counter will be suffixed
+   by a period.
+ \item You can use `a)' for alphabetical counter and '(i)' 
+  for roman counter.
+  \begin{enumerate}[a)]
+    \item Another level of list with alphabetical counter.
+    \item One more item before we start another.
+    \item One more item before we start another.
+    \item One more item before we start another.
+    \item One more item before we start another.
+\end{verbatim}
+
+Further, the enhanced list environment allows one to prefix a
+string like `step' to all the item numbers.  
+
+\begin{verbatim}
+ \begin{enumerate}[Step 1.]
+  \item This is the first step of the example list.
+  \item Obviously this is the second step.
+  \item The final step to wind up this example.
+ \end{enumerate}
+\end{verbatim}
+
+\section{Cross-references}
+In electronic publications, articles may be internally
+hyperlinked. Hyperlinks are generated from proper
+cross-references in the article.  For example, the words
+\textcolor{black!80}{Fig.~1} will never be more than simple text,
+whereas the proper cross-reference \verb+\ref{tiger}+ may be
+turned into a hyperlink to the figure itself:
+\textcolor{blue}{Fig.~1}.  In the same way,
+the words \textcolor{blue}{Ref.~[1]} will fail to turn into a
+hyperlink; the proper cross-reference is \verb+\cite{Knuth96}+.
+Cross-referencing is possible in \LaTeX{} for sections,
+subsections, formulae, figures, tables, and literature
+references.
+
+\section{Bibliography}
+
+Two bibliographic style files (\verb+*.bst+) are provided ---
+{model1-num-names.bst} and {model2-names.bst} --- the first one can be
+used for the numbered scheme. This can also be used for the numbered
+with new options of {natbib.sty}. The second one is for the author year
+scheme. When  you use model2-names.bst, the citation commands will be
+like \verb+\citep+,  \verb+\citet+, \verb+\citealt+ etc. However when
+you use model1-num-names.bst, you may use only \verb+\cite+ command.
+
+\verb+thebibliography+ environment.  Each reference is a\linebreak
+\verb+\bibitem+ and each \verb+\bibitem+ is identified by a label,
+by which it can be cited in the text:
+
+\noindent In connection with cross-referencing and
+possible future hyperlinking it is not a good idea to collect
+more that one literature item in one \verb+\bibitem+.  The
+so-called Harvard or author-year style of referencing is enabled
+by the \LaTeX{} package {natbib}. With this package the
+literature can be cited as follows:
+
+\begin{enumerate}[\textbullet]
+\item Parenthetical: \verb+\citep{WB96}+ produces (Wettig \& Brown, 1996).
+\item Textual: \verb+\citet{ESG96}+ produces Elson et al. (1996).
+\item An affix and part of a reference:\break
+\verb+\citep[e.g.][Ch. 2]{Gea97}+ produces (e.g. Governato et
+al., 1997, Ch. 2).
+\end{enumerate}
+
+In the numbered scheme of citation, \verb+\cite{<label>}+ is used,
+since \verb+\citep+ or \verb+\citet+ has no relevance in the numbered
+scheme.  {natbib} package is loaded by {cas-dc} with
+\verb+numbers+ as default option.  You can change this to author-year
+or harvard scheme by adding option \verb+authoryear+ in the class
+loading command.  If you want to use more options of the {natbib}
+package, you can do so with the \verb+\biboptions+ command.  For
+details of various options of the {natbib} package, please take a
+look at the {natbib} documentation, which is part of any standard
+\LaTeX{} installation.
+
+\appendix
+\section{My Appendix}
+Appendix sections are coded under \verb+\appendix+.
+
+\verb+\printcredits+ command is used after appendix sections to list 
+author credit taxonomy contribution roles tagged using \verb+\credit+ 
+in frontmatter.
+
+\printcredits
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{cas-model2-names}
+
+% Loading bibliography database
+\bibliography{cas-refs}
+
+
+%\vskip3pt
+
+\bio{}
+Author biography without author photo.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+\endbio
+
+\bio{figs/cas-pic1}
+Author biography with author photo.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+\endbio
+
+\bio{figs/cas-pic1}
+Author biography with author photo.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+Author biography. Author biography. Author biography.
+\endbio
+
+\end{document}
+
