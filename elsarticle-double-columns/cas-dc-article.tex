@@ -228,7 +228,7 @@ Based on previous work developed to model the transmission of malaria based on p
 \end{align}
 %\end{gather}
 
-The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}. With the incidence function \cite{Rorato2023} we have that
+The parameters are given in Table A1, while the variables are given in Table A2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}. With the incidence function \cite{Rorato2023} we have that
 
 \begin{align}
 \text{Inc} = %(d, m, z, t_1, t_2) = 
@@ -369,16 +369,18 @@ breeding sites.
 
 
 \appendix
-\section{My Appendix}
+\renewcommand{\thetable}{A.\arabic{table}}
+\setcounter{table}{0}  % Restart the table counter
+
+\section{Appendix}
 Appendix sections are coded under \verb+\appendix+.
 
 \begin{table}[width=.9\linewidth,cols=4,pos=h]
-\caption{This is a test caption. This is a test caption. This is a test
-caption. This is a test caption. Use \{table*\} instead of \{table\} if you
-want a two column spanned table.}\label{tbl1}
+\caption{List of model parameters.}\label{tbl1}
+\renewcommand{\thetable}{Appendix 1}  % Custom table name
 \begin{tabular*}{\tblwidth}{@{} LLLL@{} }
 \toprule
-Col 1 & Col 2 & Col 3 & Col4\\
+Col 1 & Col 2 & Col 3 & Col 4\\
 \midrule
 12345 & 12345 & 123 & 12345 \\
 12345 & 12345 & 123 & 12345 \\
