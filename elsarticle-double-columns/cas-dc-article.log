@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  26 AUG 2024 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  26 AUG 2024 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,8 +1138,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 366--368
 
  []
 
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 376.
+
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 379--379
+ []$[]$ 
+ []
+
+
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 381--399
+ [][] 
+ []
+
 No file cas-dc-article.bbl.
 [3
 
@@ -1156,11 +1164,11 @@ Package rerunfilecheck Info: File `cas-dc-article.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18079 strings out of 475247
- 279994 string characters out of 5757791
+ 18078 strings out of 475247
+ 279981 string characters out of 5757791
  1957785 words of memory out of 5000000
- 39277 multiletter control sequences out of 15000+600000
- 650346 words of font info for 155 fonts, out of 8000000 for 9000
+ 39276 multiletter control sequences out of 15000+600000
+ 650038 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,117p,717b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx
@@ -1175,9 +1183,9 @@ b><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-ma
 thit.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/
 stix-mathrm.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/stix/stix-mathsf.pfb>
-Output written on cas-dc-article.pdf (3 pages, 221600 bytes).
+Output written on cas-dc-article.pdf (3 pages, 225341 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
