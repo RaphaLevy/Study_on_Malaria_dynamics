@@ -327,183 +327,7 @@ as well as increasing the proportion of bites that lead to infection,
 due to the increased human population density in areas near mosquito 
 breeding sites.
 
-\section{Front matter}
 
-The author names and affiliations could be formatted in two ways:
-\begin{enumerate}[(1)]
-\item Group the authors per affiliation.
-\item Use footnotes to indicate the affiliations.
-\end{enumerate}
-See the front matter of this document for examples. 
-You are recommended to conform your choice to the journal you 
-are submitting to.
-
-\section{Bibliography styles}
-
-There are various bibliography styles available. You can select the
-style of your choice in the preamble of this document. These styles are
-Elsevier styles based on standard styles like Harvard and Vancouver.
-Please use Bib\TeX\ to generate your bibliography and include DOIs
-whenever available.
-
-Here are two sample references: 
-\cite{Fortunato2010}
-\cite{Fortunato2010,NewmanGirvan2004}
-\cite{Fortunato2010,Vehlowetal2013}
-
-\section{Floats}
-{Figures} may be included using the command,\linebreak 
-\verb+\includegraphics+ in
-combination with or without its several options to further control
-graphic. \verb+\includegraphics+ is provided by {graphic[s,x].sty}
-which is part of any standard \LaTeX{} distribution.
-{graphicx.sty} is loaded by default. \LaTeX{} accepts figures in
-the postscript format while pdf\LaTeX{} accepts {*.pdf},
-{*.mps} (metapost), {*.jpg} and {*.png} formats. 
-pdf\LaTeX{} does not accept graphic files in the postscript format. 
-
-%%%%% FIGURE
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.9\columnwidth]{figs/cas-munnar-2024.jpg}
-%	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
-%	\label{FIG:1}
-%\end{figure}
-
-
-The \verb+table+ environment is handy for marking up tabular
-material. If users want to use {multirow.sty},
-{array.sty}, etc., to fine control/enhance the tables, they
-are welcome to load any package of their choice and
-{cas-dc.cls} will work in combination with all loaded
-packages.
-
-\begin{table}[width=.9\linewidth,cols=4,pos=h]
-\caption{This is a test caption. This is a test caption. This is a test
-caption. This is a test caption. Use \{table*\} instead of \{table\} if you
-want a two column spanned table.}\label{tbl1}
-\begin{tabular*}{\tblwidth}{@{} LLLL@{} }
-\toprule
-Col 1 & Col 2 & Col 3 & Col4\\
-\midrule
-12345 & 12345 & 123 & 12345 \\
-12345 & 12345 & 123 & 12345 \\
-12345 & 12345 & 123 & 12345 \\
-12345 & 12345 & 123 & 12345 \\
-12345 & 12345 & 123 & 12345 \\
-\bottomrule
-\end{tabular*}
-\end{table}
-
-\section[Theorem and ...]{Theorem and theorem like environments}
-
-{cas-dc.cls} provides a few shortcuts to format theorems and
-theorem-like environments with ease. In all commands the options that
-are used with the \verb+\newtheorem+ command will work exactly in the same
-manner. {cas-dc.cls} provides three commands to format theorem or
-theorem-like environments: 
-
-\begin{verbatim}
- \newtheorem{theorem}{Theorem}
- \newtheorem{lemma}[theorem]{Lemma}
- \newdefinition{rmk}{Remark}
- \newproof{pf}{Proof}
- \newproof{pot}{Proof of Theorem \ref{thm2}}
-\end{verbatim}
-
-
-The \verb+\newtheorem+ command formats a
-theorem in \LaTeX's default style with italicized font, bold font
-for theorem heading and theorem number at the right hand side of the
-theorem heading.  It also optionally accepts an argument which
-will be printed as an extra heading in parentheses. 
-
-\begin{verbatim}
-  \begin{theorem} 
-   For system (8), consensus can be achieved with 
-   $\|T_{\omega z}$ ...
-     \begin{eqnarray}\label{10}
-     ....
-     \end{eqnarray}
-  \end{theorem}
-\end{verbatim}  
-
-
-\newtheorem{theorem}{Theorem}
-
-\begin{theorem}
-For system (8), consensus can be achieved with 
-$\|T_{\omega z}$ ...
-\begin{eqnarray}\label{10}
-....
-\end{eqnarray}
-\end{theorem}
-
-The \verb+\newdefinition+ command is the same in
-all respects as its \verb+\newtheorem+ counterpart except that
-the font shape is roman instead of italic.  Both
-\verb+\newdefinition+ and \verb+\newtheorem+ commands
-automatically define counters for the environments defined.
-
-The \verb+\newproof+ command defines proof environments with
-upright font shape.  No counters are defined. 
-
-
-%%%% FIGURE
-%\begin{figure*}
-%	\centering
-%	\includegraphics[width=.9\textwidth]{figs/cas-munnar-2024.jpg}
-%	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
-%	\label{FIG:2}
-%\end{figure*}
-
-
-\section[Enumerated ...]{Enumerated and Itemized Lists}
-{cas-dc.cls} provides an extended list processing macros
-which makes the usage a bit more user friendly than the default
-\LaTeX{} list macros.   With an optional argument to the
-\verb+\begin{enumerate}+ command, you can change the list counter
-type and its attributes.
-
-\begin{verbatim}
- \begin{enumerate}[1.]
- \item The enumerate environment starts with an optional
-   argument `1.', so that the item counter will be suffixed
-   by a period.
- \item You can use `a)' for alphabetical counter and '(i)' 
-  for roman counter.
-  \begin{enumerate}[a)]
-    \item Another level of list with alphabetical counter.
-    \item One more item before we start another.
-    \item One more item before we start another.
-    \item One more item before we start another.
-    \item One more item before we start another.
-\end{verbatim}
-
-Further, the enhanced list environment allows one to prefix a
-string like `step' to all the item numbers.  
-
-\begin{verbatim}
- \begin{enumerate}[Step 1.]
-  \item This is the first step of the example list.
-  \item Obviously this is the second step.
-  \item The final step to wind up this example.
- \end{enumerate}
-\end{verbatim}
-
-\section{Cross-references}
-In electronic publications, articles may be internally
-hyperlinked. Hyperlinks are generated from proper
-cross-references in the article.  For example, the words
-\textcolor{black!80}{Fig.~1} will never be more than simple text,
-whereas the proper cross-reference \verb+\ref{tiger}+ may be
-turned into a hyperlink to the figure itself:
-\textcolor{blue}{Fig.~1}.  In the same way,
-the words \textcolor{blue}{Ref.~[1]} will fail to turn into a
-hyperlink; the proper cross-reference is \verb+\cite{Knuth96}+.
-Cross-referencing is possible in \LaTeX{} for sections,
-subsections, formulae, figures, tables, and literature
-references.
 
 
 
@@ -548,9 +372,24 @@ references.
 \section{My Appendix}
 Appendix sections are coded under \verb+\appendix+.
 
-\verb+\printcredits+ command is used after appendix sections to list 
-author credit taxonomy contribution roles tagged using \verb+\credit+ 
-in frontmatter.
+\begin{table}[width=.9\linewidth,cols=4,pos=h]
+\caption{This is a test caption. This is a test caption. This is a test
+caption. This is a test caption. Use \{table*\} instead of \{table\} if you
+want a two column spanned table.}\label{tbl1}
+\begin{tabular*}{\tblwidth}{@{} LLLL@{} }
+\toprule
+Col 1 & Col 2 & Col 3 & Col4\\
+\midrule
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+12345 & 12345 & 123 & 12345 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+
 
 \printcredits
 
