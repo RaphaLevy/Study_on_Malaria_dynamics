@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  20 AUG 2024 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  26 AUG 2024 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,31 +886,6 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 Package hyperref Warning: Ignoring empty anchor on input line 165.
 
 
-Package natbib Warning: Citation `pimenta_orfano_bahia_duarte_rios-velasquez_me
-lo_pessoa_oliveira_campos_villegas_etal_2015' on page 1 undefined on input line
- 179.
-
-
-Package natbib Warning: Citation `regulation_of_sexual_commitment' on page 1 un
-defined on input line 183.
-
-
-Package natbib Warning: Citation `silva-nunes_malaria_amazon_2008' on page 1 un
-defined on input line 191.
-
-
-Package natbib Warning: Citation `DASILVANUNES2012281' on page 1 undefined on i
-nput line 193.
-
-
-Package natbib Warning: Citation `Rorato2023' on page 1 undefined on input line
- 215.
-
-
-Package natbib Warning: Citation `Parham2010' on page 1 undefined on input line
- 219.
-
-
 Overfull \hbox (9.23685pt too wide) detected at line 228
 []
  []
@@ -927,200 +902,310 @@ ana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-t1.enc}
 {C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
 -0.enc} <./thumbnails/cas-email.jpeg>]
 
-Package natbib Warning: Citation `Rorato2023' on page 2 undefined on input line
- 231.
-
-
-Package natbib Warning: Citation `OliveiraFerreira2010' on page 2 undefined on 
-input line 231.
-
-
-Package natbib Warning: Citation `10.3389/fpubh.2021.647754' on page 2 undefine
-d on input line 231.
-
-
-Package natbib Warning: Citation `Rorato2023' on page 2 undefined on input line
- 231.
-
-
-Overfull \hbox (22.66364pt too wide) detected at line 235
-[]
- []
-
-
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
-7.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
-7.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
-7.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
-7.
-
-
-Overfull \hbox (103.81662pt too wide) detected at line 247
-[]
- []
-
-
-Package natbib Warning: Citation `Datasus2006' on page 2 undefined on input lin
-e 252.
-
-
-Package natbib Warning: Citation `popIBGE' on page 2 undefined on input line 25
 8.
 
 
-Package natbib Warning: Citation `Norris2004' on page 2 undefined on input line
- 287.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+8.
 
 
-Package natbib Warning: Citation `infoAnopheles' on page 2 undefined on input l
-ine 291.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+8.
 
 
-Package natbib Warning: Citation `article_alteracoesambientais' on page 2 undef
-ined on input line 295.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
+8.
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 286--298
+Underfull \hbox (badness 1454) in paragraph at lines 287--299
 \T1/stix/m/n/10 resur-gence of malaria in South Amer-ica. In de-for-ested
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 286--298
+Underfull \hbox (badness 1205) in paragraph at lines 287--299
 \LS1/stix/m/it/10 Anopheles darlingi$\T1/stix/m/n/10 , the main vec-tor re-late
 d to hu-man
  []
 
 
 Package natbib Warning: Citation `Fortunato2010' on page 2 undefined on input l
-ine 332.
-
-
-Package natbib Warning: Citation `Fortunato2010' on page 2 undefined on input l
 ine 333.
-
-
-Package natbib Warning: Citation `NewmanGirvan2004' on page 2 undefined on inpu
-t line 333.
 
 
 Package natbib Warning: Citation `Fortunato2010' on page 2 undefined on input l
 ine 334.
 
 
+Package natbib Warning: Citation `NewmanGirvan2004' on page 2 undefined on inpu
+t line 334.
+
+
+Package natbib Warning: Citation `Fortunato2010' on page 2 undefined on input l
+ine 335.
+
+
 Package natbib Warning: Citation `Vehlowetal2013' on page 2 undefined on input 
-line 334.
+line 335.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 338.
+(Font)              scaled to size 8.50006pt on input line 339.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--346
+Underfull \hbox (badness 10000) in paragraph at lines 338--347
 []\T1/stix/m/n/10 Figures may be in-cluded us-ing the com-mand,
  []
 
-<figs/cas-munnar-2024.jpg, id=23, 5352.99875pt x 3011.25pt>
-File: figs/cas-munnar-2024.jpg Graphic file (type jpg)
-<use figs/cas-munnar-2024.jpg>
-Package pdftex.def Info: figs/cas-munnar-2024.jpg  used on input line 349.
-(pdftex.def)             Requested size: 214.42754pt x 120.61328pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
 \c@theorem=\count340
 
-Underfull \hbox (badness 1005) in paragraph at lines 429--431
+Underfull \hbox (badness 1005) in paragraph at lines 431--433
 []\T1/stix/m/n/10 The [][]\T1/zi4/m/n/10 \newproof []\T1/stix/m/n/10 com-mand d
 e-fines proof en-vi-ron-ments
  []
 
-File: figs/cas-munnar-2024.jpg Graphic file (type jpg)
-<use figs/cas-munnar-2024.jpg>
-Package pdftex.def Info: figs/cas-munnar-2024.jpg  used on input line 434.
-(pdftex.def)             Requested size: 445.05496pt x 250.32425pt.
 Package textcomp Info: Symbol \textasciigrave not provided by
 (textcomp)             font family zi4 in TS1 encoding.
-(textcomp)             Default family used instead on input line 450.
+(textcomp)             Default family used instead on input line 454.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-50.
+54.
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-450.
+454.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 4
-50.
+54.
 
 (C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 450.
+(Font)              scaled to size 8.50006pt on input line 454.
 Package textcomp Info: Symbol \textasciigrave not provided by
 (textcomp)             font family zi4 in TS1 encoding.
-(textcomp)             Default family used instead on input line 452.
+(textcomp)             Default family used instead on input line 456.
 
-Underfull \hbox (badness 7649) in paragraph at lines 497--500
-[][][]\T1/zi4/m/n/10 thebibliography []\T1/stix/m/n/10 en-vi-ron-ment. Each ref
--er-ence is a
+Underfull \hbox (badness 7777) in paragraph at lines 499--501
+[]\T1/stix/m/n/8 P.F.P. Pi-menta et al., An overview of malaria trans-mis-sion
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 499--501
+\T1/stix/m/n/8 from the per-spec-tive of Ama-zon \T1/stix/m/it/8 Anophe-les vec
+-tors\T1/stix/m/n/8 , Memórias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+\T1/stix/m/n/8 do In-sti-tuto Os-waldo Cruz, Vol. 110 (1) (2015), 23-47,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+\T1/stix/m/n/8 Com-mit-ment and Ga-me-to-cy-to-ge-n-e-sis in Malaria Par-a-site
+s,
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 501--503
+\T1/stix/m/n/8 An-nual Re-view of Mi-cro-bi-ol-ogy, Vol. 72 (1) (2018), 501-519
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 503--505
+[]\T1/stix/m/n/8 M. Silva-Nunes et al., Malaria on the Ama-zo-nian fron-tier:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 507--509
+\T1/stix/m/n/8 of en-vi-ron-men-tal, epi-demi-o-log-i-cal, and eco-nomic in-di-
+ca-tors for
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 507--509
+\T1/stix/m/n/8 the Brazil-ian Ama-zon, Sci-en-tific Data, Vol. 10 (1) (2023), 6
+5,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+\T1/stix/m/n/8 Trans-mis-sion, Mod-elling Par-a-site Trans-mis-sion and Con-tro
+l,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+
  []
 
 [3{C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-
-ts1.enc} <./figs/cas-munnar-2024.jpg>]
+ts1.enc}]
+Underfull \hbox (badness 1484) in paragraph at lines 511--513
+\T1/stix/m/n/8 Phys-i-cal Jour-nal Spe-cial Top-ics, Vol. 225 (3) (2016), 459-4
+70,
+ []
 
-LaTeX Warning: The counter will not be printed.
-             The label is: \textbullet  on input line 508.
 
-LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-508.
-(C:\Users\ilana\AppData\Local\Programs\MiKTeX\tex/latex/stix\ts1stix.fd
-File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 511--514
-[]\T1/stix/m/n/10 An af-fix and part of a ref-er-ence:
+Underfull \hbox (badness 10000) in paragraph at lines 511--513
+
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 513--515
+[]\T1/stix/m/n/8 J. Oliveira-Ferreira, M. V. Lac-erda, P. Brasil et al., Malari
+a
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 513--515
+\T1/stix/m/n/8 in Brazil: an overview., Malaria Jour-nal, Vol. 9 (1) (2010),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--515
+
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 515--517
+\T1/stix/m/n/8 C.S. An-dreazzi, M. Bar-bosa, M.I.S. Es-cada, D.A. Fer-nan-des,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
+\T1/stix/m/n/8 D.L. Ro-drigues, I.C. Reis, M. Silva-Nunes, A.B. Gon-tijo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
+\T1/stix/m/n/8 F.C. Coelho, A.M.V. Mon-teiro, Epi-demi-ol-ogy, Bio-di-ver-sity,
+
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 515--517
+\T1/stix/m/n/8 and Tech-no-log-i-cal Tra-jec-to-ries in the Brazil-ian Ama-zon:
+ From
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
+[]\T1/stix/m/n/8 Tabnet, Min-istério da Saúde, ac-cessed 12 Au-gust 2024,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+[]\T1/stix/m/n/8 Censo - Séries históri-cas. Brasil / Ama-zonas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+\T1/stix/m/n/8 / Man-aus, IBGE, ac-cessed 15 Au-gust 2024,
+ []
+
+
+Overfull \hbox (14.39351pt too wide) in paragraph at lines 519--521
+[][]\T1/stix/m/n/8 https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?t
+ipo=grafico[][]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
+[]\T1/stix/m/n/8 D. E. Nor-ris, Mosquito-borne Dis-eases as a Con-se-quence
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 521--523
+\T1/stix/m/n/8 of Land Use Change, Eco-Health, Vol. 1 (1) (2004), 19-24,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+[]\T1/stix/m/n/8 Anopheles, Fiocruz Rondô-nia, ac-cessed 15 Au-gust 2024,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
+[]\T1/stix/m/n/8 M. Silva-Nunes, En-vi-ron-men-tal changes im-pact in malaria
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 525--527
+\T1/stix/m/n/8 trans-mi-tion and prospects for the dis-ease con-trol in brazil-
+ian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
+
  []
 
 No file cas-dc-article.bbl.
-<figs/cas-pic1.pdf, id=58, 218.8175pt x 218.8175pt>
-File: figs/cas-pic1.pdf Graphic file (type pdf)
-<use figs/cas-pic1.pdf>
-Package pdftex.def Info: figs/cas-pic1.pdf  used on input line 560.
-(pdftex.def)             Requested size: 72.55452pt x 72.5539pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 7.755389404296875] ...
-... wr-fig: [LINE-INT: 8] ...
-File: figs/cas-pic1.pdf Graphic file (type pdf)
-<use figs/cas-pic1.pdf>
-Package pdftex.def Info: figs/cas-pic1.pdf  used on input line 560.
-(pdftex.def)             Requested size: 72.55452pt x 72.5539pt.
-File: figs/cas-pic1.pdf Graphic file (type pdf)
-<use figs/cas-pic1.pdf>
-Package pdftex.def Info: figs/cas-pic1.pdf  used on input line 573.
-(pdftex.def)             Requested size: 72.55452pt x 72.5539pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 7.755389404296875] ...
-... wr-fig: [LINE-INT: 8] ...
-File: figs/cas-pic1.pdf Graphic file (type pdf)
-<use figs/cas-pic1.pdf>
-Package pdftex.def Info: figs/cas-pic1.pdf  used on input line 573.
-(pdftex.def)             Requested size: 72.55452pt x 72.5539pt.
 
 Package natbib Warning: There were undefined citations.
 
-[4{C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix/stix-ts1.e
-nc} <./figs/cas-pic1.pdf>] (cas-dc-article.aux)
+[4
+
+] (cas-dc-article.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1133,13 +1218,13 @@ Package rerunfilecheck Info: File `cas-dc-article.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18173 strings out of 475247
- 281672 string characters out of 5757791
- 1956785 words of memory out of 5000000
- 39351 multiletter control sequences out of 15000+600000
- 654305 words of font info for 160 fonts, out of 8000000 for 9000
+ 18167 strings out of 475247
+ 282062 string characters out of 5757791
+ 1957785 words of memory out of 5000000
+ 39342 multiletter control sequences out of 15000+600000
+ 653974 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,117p,717b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,117p,717b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
 1000.pk> <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecsx0900.pk> <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1153,9 +1238,9 @@ hex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/s
 tix-mathit.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /stix/stix-mathrm.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/stix/stix-mathsf.pfb>
-Output written on cas-dc-article.pdf (4 pages, 919831 bytes).
+Output written on cas-dc-article.pdf (4 pages, 238674 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

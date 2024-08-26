@@ -231,7 +231,8 @@ Based on previous work developed to model the transmission of malaria based on p
 The parameters are given in Table 1, while the variables are given in Table 2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}. With the incidence function \cite{Rorato2023} we have that
 
 \begin{align}
-\text{Inc}(d, m, z, t_1, t_2) = \dfrac{\text{Cases}(d, m, z, t_1, t_2)}{\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}} \times 10^5,
+\text{Inc} = %(d, m, z, t_1, t_2) = 
+\dfrac{\text{Cases}(d, m, z, t_1, t_2)}{\text{Pop}(m,z,(t_1+t_2)/2) \times 5 \ \text{years}} \times 10^5,
 \end{align}
 
 where $\text{Cases}(d, m, z, t_1, t_2)$ is the number of cases of disease $d$ in zone $z$ of municipality 
@@ -241,9 +242,9 @@ of municipality $m$ in the middle of the period multiplied by the total number
 of observation years. In this case, we could indicate as:
 
 \begin{align}
-    \footnotesize{\text{Inc}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008) = } 
-\footnotesize{\dfrac{\text{Cases}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008)}{\text{Pop}(\text{Manaus}, \text{Rural}, 2006) \times 5 \ \text{years}} \times 10^5}  \\
-    184030.8 = \dfrac{78745}{5\text{Pop}} \times 10^5 \Rightarrow Pop \approx 8558
+    \footnotesize{\text{Inc}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008) = } \\
+= \footnotesize{\dfrac{\text{Cases}(\text{Vivax}, \text{Manaus}, \text{Rural}, 2004, 2008)}{\text{Pop}(\text{Manaus}, \text{Rural}, 2006) \times 5 \ \text{years}} \times 10^5} \Rightarrow  \\
+    \Rightarrow 184030.8 = \dfrac{78745}{5\text{Pop}} \times 10^5 \Rightarrow Pop \approx 8558
 \end{align}
 
 Using data on the total population of Manaus in this period, 
@@ -344,12 +345,13 @@ the postscript format while pdf\LaTeX{} accepts {*.pdf},
 {*.mps} (metapost), {*.jpg} and {*.png} formats. 
 pdf\LaTeX{} does not accept graphic files in the postscript format. 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=.9\columnwidth]{figs/cas-munnar-2024.jpg}
-	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
-	\label{FIG:1}
-\end{figure}
+%%%%% FIGURE
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=.9\columnwidth]{figs/cas-munnar-2024.jpg}
+%	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
+%	\label{FIG:1}
+%\end{figure}
 
 
 The \verb+table+ environment is handy for marking up tabular
@@ -429,12 +431,14 @@ automatically define counters for the environments defined.
 The \verb+\newproof+ command defines proof environments with
 upright font shape.  No counters are defined. 
 
-\begin{figure*}
-	\centering
-	\includegraphics[width=.9\textwidth]{figs/cas-munnar-2024.jpg}
-	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
-	\label{FIG:2}
-\end{figure*}
+
+%%%% FIGURE
+%\begin{figure*}
+%	\centering
+%	\includegraphics[width=.9\textwidth]{figs/cas-munnar-2024.jpg}
+%	\caption{The beauty of Munnar, Kerala. (See also Table \protect\ref{tbl1}).}
+%	\label{FIG:2}
+%\end{figure*}
 
 
 \section[Enumerated ...]{Enumerated and Itemized Lists}
@@ -484,45 +488,44 @@ Cross-referencing is possible in \LaTeX{} for sections,
 subsections, formulae, figures, tables, and literature
 references.
 
-\section{Bibliography}
 
-Two bibliographic style files (\verb+*.bst+) are provided ---
-{model1-num-names.bst} and {model2-names.bst} --- the first one can be
-used for the numbered scheme. This can also be used for the numbered
-with new options of {natbib.sty}. The second one is for the author year
-scheme. When  you use model2-names.bst, the citation commands will be
-like \verb+\citep+,  \verb+\citet+, \verb+\citealt+ etc. However when
-you use model1-num-names.bst, you may use only \verb+\cite+ command.
 
-\verb+thebibliography+ environment.  Each reference is a\linebreak
-\verb+\bibitem+ and each \verb+\bibitem+ is identified by a label,
-by which it can be cited in the text:
+ \begin{thebibliography}{00}
 
-\noindent In connection with cross-referencing and
-possible future hyperlinking it is not a good idea to collect
-more that one literature item in one \verb+\bibitem+.  The
-so-called Harvard or author-year style of referencing is enabled
-by the \LaTeX{} package {natbib}. With this package the
-literature can be cited as follows:
+%% \bibitem must have the following form:
+%%   \bibitem{key}...
+%%
 
-\begin{enumerate}[\textbullet]
-\item Parenthetical: \verb+\citep{WB96}+ produces (Wettig \& Brown, 1996).
-\item Textual: \verb+\citet{ESG96}+ produces Elson et al. (1996).
-\item An affix and part of a reference:\break
-\verb+\citep[e.g.][Ch. 2]{Gea97}+ produces (e.g. Governato et
-al., 1997, Ch. 2).
-\end{enumerate}
+\bibitem{pimenta_orfano_bahia_duarte_rios-velasquez_melo_pessoa_oliveira_campos_villegas_etal_2015} P.F.P. Pimenta et al., An overview of malaria transmission from the perspective of Amazon \emph{Anopheles vectors}, Memórias do Instituto Oswaldo Cruz, Vol. 110 (1) (2015), 23-47, \href{https://doi.org/10.1590/0074-02760140266}{https://doi.org/10.1590/0074-02760140266}.
+\\
+\bibitem{regulation_of_sexual_commitment} G.A. Josling, K.C Williamson, M. Llinás, Regulation of Sexual Commitment and Gametocytogenesis in Malaria Parasites, Annual Review of Microbiology, Vol. 72 (1) (2018), 501-519, \href{https://doi.org/10.1146/annurev-micro-090817-062712}{https://doi.org/10.1146/annurev-micro-090817-062712}.
+\\
+\bibitem{silva-nunes_malaria_amazon_2008} M. Silva-Nunes et al., Malaria on the Amazonian frontier: transmission dynamics, risk factors, spatial distribution, and prospects for control, American Journal of Tropical Medicine and Hygiene, Vol. 79 (4) (2008), 624-635, \href{https://doi.org/10.4269/ajtmh.2008.79.624}{https://doi.org/10.4269/ajtmh.2008.79.624}. 
+\\
+\bibitem{DASILVANUNES2012281} M. Silva-Nunes et al.,  Amazonian malaria: Asymptomatic human reservoirs, diagnostic challenges, environmentally driven changes in mosquito vector populations, and the mandate for sustainable control strategies, Acta Tropica, Vol. 121 (3) (2012), 281-291 , \href{https://doi.org/10.1016/j.actatropica.2011.10.001}{https://doi.org/10.1016/j.actatropica.2011.10.001}.
+\\
+\bibitem{Rorato2023} A.C. Rorato, A.P. Dal’Asta, R.M. Lana et al., Trajetorias: a dataset of environmental, epidemiological, and economic indicators for the Brazilian Amazon, Scientific Data, Vol. 10 (1) (2023), 65, \href{https://doi.org/10.1038/s41597-023-01962-1}{https://doi.org/10.1038/s41597-023-01962-1}.
+\\
+\bibitem{Parham2010} P.E.Parham, E. Michael, Modelling Climate Change and Malaria Transmission, Modelling Parasite Transmission and Control, Advances in Experimental Medicine and Biology, Vol. 673 (2010), 184-199, \href{https://doi.org/10.1007/978-1-4419-6064-1_13}{https://doi.org/10.1007/978-1-4419-6064-1\_13}.
+\\
+\bibitem{McCord2016} G.C. McCord, Malaria ecology and climate change, The European Physical Journal Special Topics, Vol. 225 (3) (2016), 459-470, \href{https://doi.org/10.1140/epjst/e2015-50097-1}{https://doi.org/10.1140/epjst/e2015-50097-1}.
+\\
+\bibitem{OliveiraFerreira2010} J. Oliveira-Ferreira, M. V. Lacerda, P. Brasil et al., Malaria in Brazil: an overview., Malaria Journal, Vol. 9 (1) (2010), \href{https://doi.org/10.1186/1475-2875-9-115}{https://doi.org/10.1186/1475-2875-9-115}.
+\\
+\bibitem{10.3389/fpubh.2021.647754} C.T. Codeço, A.P. Dal'Asta, A.C. Rorato, R.M. Lana, T.C. Neves, C.S. Andreazzi, M. Barbosa, M.I.S. Escada, D.A. Fernandes, D.L. Rodrigues, I.C. Reis, M. Silva-Nunes, A.B. Gontijo, F.C. Coelho, A.M.V. Monteiro, Epidemiology, Biodiversity, and Technological Trajectories in the Brazilian Amazon: From Malaria to COVID-19, Frontiers in Public Health, Vol. 9 (2021), \href{https://doi.org/10.3389/fpubh.2021.647754}{https://doi.org/10.3389/fpubh.2021.647754}.
+\\
+\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024, \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
+\\
+\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\\
+\bibitem{Norris2004} D. E. Norris, Mosquito-borne Diseases as a Consequence of Land Use Change, EcoHealth, Vol. 1 (1) (2004), 19-24, \href{https://doi.org/10.1007/s10393-004-0008-7}{https://doi.org/10.1007/s10393-004-0008-7}.
+\\
+\bibitem{infoAnopheles} Anopheles, Fiocruz Rondônia, accessed 15 August 2024, \href{https://www.rondonia.fiocruz.br/pivem/anopheline/}{https://www.rondonia.fiocruz.br/pivem/anopheline/}.
+\\
+\bibitem{article_alteracoesambientais} M. Silva-Nunes, Environmental changes impact in malaria transmition and prospects for the disease control in brazilian amazon rural settlements, Oecologia Australis, Vol. 14 (3) (2010), 603-622, \href{https://revistas.ufrj.br/index.php/oa/article/view/7101}{https://revistas.ufrj.br/index.php/oa/article/view/7101}.
+\\
+\end{thebibliography}
 
-In the numbered scheme of citation, \verb+\cite{<label>}+ is used,
-since \verb+\citep+ or \verb+\citet+ has no relevance in the numbered
-scheme.  {natbib} package is loaded by {cas-dc} with
-\verb+numbers+ as default option.  You can change this to author-year
-or harvard scheme by adding option \verb+authoryear+ in the class
-loading command.  If you want to use more options of the {natbib}
-package, you can do so with the \verb+\biboptions+ command.  For
-details of various options of the {natbib} package, please take a
-look at the {natbib} documentation, which is part of any standard
-\LaTeX{} installation.
 
 \appendix
 \section{My Appendix}
@@ -544,39 +547,7 @@ in frontmatter.
 
 %\vskip3pt
 
-\bio{}
-Author biography without author photo.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-\endbio
 
-\bio{figs/cas-pic1}
-Author biography with author photo.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-\endbio
-
-\bio{figs/cas-pic1}
-Author biography with author photo.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-Author biography. Author biography. Author biography.
-\endbio
 
 \end{document}
 
