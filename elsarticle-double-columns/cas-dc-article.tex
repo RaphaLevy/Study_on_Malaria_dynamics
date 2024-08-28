@@ -158,7 +158,7 @@ on Biodiversity and Ecosystem Services (SinBiose/CNPq) was used as an initial re
 %\end{highlights}
 
 \begin{keywords}
-Biological modelling \sep Malaria \sep Amazon \sep SIR \sep SEI
+Biological modelling \sep Malaria transmission \sep Climate change \sep Amazon \sep SIR \sep SEI
 \end{keywords}
 
 
@@ -216,7 +216,7 @@ and the risk of diseases \cite{Rorato2023}.
 
 \section{Model formulation}
 
-Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are given as:
+Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are initially given as:
 %\begin{gather}
 \begin{align}
 \dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \label{eq1}\\
@@ -327,6 +327,8 @@ as well as increasing the proportion of bites that lead to infection,
 due to the increased human population density in areas near mosquito 
 breeding sites.
 
+Temperature and precipitation data were taken from the Mosqlimate Data API datastore \cite{MosqlimateAPI}, from January 1st 2004 to December 31st 2008, with the geocode 1302603.
+
 
 
 
@@ -364,6 +366,8 @@ breeding sites.
 \bibitem{infoAnopheles} Anopheles, Fiocruz Rondônia, accessed 15 August 2024, \href{https://www.rondonia.fiocruz.br/pivem/anopheline/}{https://www.rondonia.fiocruz.br/pivem/anopheline/}.
 \\
 \bibitem{article_alteracoesambientais} M. Silva-Nunes, Environmental changes impact in malaria transmition and prospects for the disease control in brazilian amazon rural settlements, Oecologia Australis, Vol. 14 (3) (2010), 603-622, \href{https://revistas.ufrj.br/index.php/oa/article/view/7101}{https://revistas.ufrj.br/index.php/oa/article/view/7101}.
+\\
+\bibitem{MosqlimateAPI} Datastore / climate, accessed 28 August 2024, \href{https://api.mosqlimate.org/datastore/}{https://api.mosqlimate.org/datastore/}.
 \\
 \end{thebibliography}
 
