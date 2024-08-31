@@ -216,7 +216,9 @@ and the risk of diseases \cite{Rorato2023}.
 
 \section{Model formulation}
 
-Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are initially given as:
+Based on previous work developed to model the transmission of malaria based on precipitation and temperature dynamics \cite{Parham2010}, we focus 
+on two different sets of compartments: susceptible hosts ($S_H$), infected hosts ($I_H$), recovered hosts ($R_H$), susceptible vectors ($S_M$), 
+exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describe the transmission are initially given as:
 %\begin{gather}
 \begin{align}
 \dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \label{eq1}\\
@@ -228,7 +230,17 @@ Based on previous work developed to model the transmission of malaria based on p
 \end{align}
 %\end{gather}
 
-The parameters are given in Table A1, while the variables are given in Table A2, which can be found in the Appendix. The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}, being the most common human malaria parasite in the region \cite{Vector_Incrimination}. With the incidence function \cite{Rorato2023} we have that
+However, the use of these equations proved to be unsuccessful for the modelling of the mosquito populations through the SEI equations, which caused the 
+function $\dfrac{dE_M}{dt}$ to be very close to 0, and therefore mirroring the oscillations of $S$ and $I$, a behavior not seen in nature. 
+
+To overcome this effect, the SEI equations were modified in order for $b_1$ to only be used in the transference between compartments $S$ and $E$, 
+and a new parameter, $b_3$ to move mosquitos from $E$ to $I$. Being inversely related to the incubation period, the rate is defined as $b_3 = \dfrac{T-T_{min}}{DD}$. 
+
+The parameters are given in Table A1, while the variables are given in Table A2, which can be found in the Appendix. 
+The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria 
+caused by $P. \ vivax$ in the Amazon region \cite{Rorato2023}. This species of $\text{Plasmodium}$ was chosen as it is responsible for the highest number of malaria
+ cases in Brazil \cite{OliveiraFerreira2010, 10.3389/fpubh.2021.647754}, being the most common human malaria 
+parasite in the region \cite{Vector_Incrimination}. With the incidence function \cite{Rorato2023} we have that
 
 \begin{align}
 \text{Inc} = %(d, m, z, t_1, t_2) = 
@@ -330,7 +342,7 @@ breeding sites.
 
 As it was outside the scope of this project to collect samples of $A. \ darlingi \ in \ loco$, it was instead used 
 an estimate for the number of mosquitos based in the literature. As the study was made around the rural population of the municipality,
-this would favour the clustering of adult mosquitos \cite{Biological_Variation_Anopheles}.
+this would favour the clustering of adult mosquitos, given the proximity to bodies of water and recently open up areas of rainforest \cite{Biological_Variation_Anopheles}.
 
  \begin{thebibliography}{00}
 
