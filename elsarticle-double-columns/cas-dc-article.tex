@@ -235,7 +235,21 @@ causing $(5)$ to be very close to 0, and therefore mirroring the oscillations of
 
 To overcome this effect, the SEI equations were modified in order for $b_1$ to only be used in the transference between compartments $S$ and $E$, 
 and a new parameter, $b_3$ to move mosquitos from $E$ to $I$. Being inversely related to the incubation period, the definition of this rate can be found in \textbf{Table A.2}. 
-In addition to that, the parameter $a(T)$ that was in use in the transition between exposed and infected also had to be removed, as no further bites occur at this point.
+In addition to that, the parameter $a(T)$ that was in use in the transition between exposed and infected also had to be removed, as no further bites occur at this point. 
+The parameter $l$ also had to be disassociated from the infection rate of exposed individual ($b_3$).
+
+The SIR equations were also modified, to take into consideration population dynamics, including a $\mu_H$ parameter as both a birth and mortality rate.
+
+The finalized equations used in the model are as following:  
+
+\begin{align}
+\dfrac{dS_H}{dt} & = \mu_HN-ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \mu_HS_H \label{eq1}\\ %\dfrac{dS_H}{dt} & = -ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H \label{eq1}\\
+\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H-\gamma I_H - \mu_HI_H \label{eq2}\\ %\dfrac{dI_H}{dt} & = ab_2\bigg(\dfrac{I_M}{N}\bigg)S_H - \gamma I_H \label{eq2}\\
+\dfrac{dR_H}{dt} & = \gamma I_H - \mu_HR_H \label{eq3}\\ %\dfrac{dR_H}{dt} & = \gamma I_H \label{eq3}\\
+\dfrac{dS_M}{dt} & = b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \label{eq4}\\ %b - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu S_M \label{eq4}\\
+\dfrac{dE_M}{dt} & = ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - b_3E_M -lE_M \label{eq5} \\%ab_1\bigg(\dfrac{I_H}{N}\bigg)S_M - \mu E_M - ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) \label{eq5}\\
+\dfrac{dI_M}{dt} & = b_3E_M -\mu I_M  \label{eq6} %ab_1\bigg(\dfrac{I_H}{N}\bigg)S_Ml(\tau_M) - \mu I_M \label{eq6}
+\end{align}
 
 The parameters are given in Table A1, while the variables are given in Table A2, which can be found in the Appendix. 
 The selected human population was from the the rural area of Manaus, between the years of 2004 to 2008, as this locality had the highest incidence of malaria 
