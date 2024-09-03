@@ -374,6 +374,21 @@ where $X=(x_1,\ldots, x_n)^T$, such that $x_i\geq 0$ represents the number
 of individuals in each compartment, and each function is assumed to be 
 continuously differentiable at least twice in each variable ($C^2$) \cite{Rep_Number_Comp_Model}.
 
+Rearranging the equations so that the first $m$ equations 
+contain the infected individuals, let ${\mathcal F}_i(x)$ be the 
+rate of appearance of new infections in compartment $i$, 
+${\mathcal V}_i^+(x)$ be the rate of individuals entering 
+compartment $i$ by other means, and ${\mathcal V}_i^-(x)$ 
+be the rate of individuals leaving compartment $i$. The disease 
+transmission model consists of non-negative initial conditions 
+together with the following system of equations:
+$$\dot{x}=f_i(x)={\mathcal F}_i(x)-{\mathcal V}_i(x), i=1,\ldots, n,$$
+where ${\mathcal V}_i (x) = {\mathcal V}_i^{-}(x) - {\mathcal V}_i^+(x)$. 
+Here, 
+$F=\left[\frac{\partial {\mathcal F}_i (x_0)}{\partial x_j}\right]$ 
+and $V=\left[\frac{\partial {\mathcal V}_i (x_0) }{\partial x_j}\right]$, 
+where $x_0$ is a Disease-Free Equilibrium (DFE), and $1\leq i,j \leq m$, and $\mathcal{R}_0 = \rho(FV^{-1})$.
+
  \begin{thebibliography}{00}
 
 %% \bibitem must have the following form:
