@@ -13,6 +13,5 @@ Contents:
 + mosqlimate_api.ipynb: File for extraction of temperature data from the [Mosqlimate API](https://api.mosqlimate.org/datastore/)
 + API_Data_Modeling.ipynb: File por development of SIR/SEI modeling using Mosqlimate data
 + temperature_tif_jupyter.ipynb: File for extraction of temperature data from the [WorldClim database](https://www.worldclim.org/data/monthlywth.html) (Outdated)
-+ climate_api_data.csv: File containing Mosqlimate API's Climate data from 2004-2008
 
 Original repository for the Final Course Work: [https://github.com/RaphaLevy/Undergraduate_Dissertation/tree/main](https://github.com/RaphaLevy/Undergraduate_Dissertation/tree/main)
