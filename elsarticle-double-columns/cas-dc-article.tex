@@ -231,7 +231,8 @@ exposed vectors ($E_M$) and infected vectors ($I_M$). The equations that describ
 %\end{gather}
 
 However, the use of these equations proved to be unsuccessful for the modelling of the mosquito populations through the SEI equations, 
-causing the population on susceptible individuals to oscillate with negative values. 
+causing the population on susceptible individuals to oscillate with negative values. This is due to the parameter $b$, the daily birth rate of mosquitos, 
+which uses the probability of survival of pupae, larvae and eggs dependant on rainfall, all of which include $(R_L - R)$ in their calculation.
 
 To overcome this effect, the SEI equations were modified in order for $b_1$ to only be used in the transference between compartments $S$ and $E$, 
 and a new parameter, $b_3$ to move mosquitos from $E$ to $I$. Being inversely related to the incubation period, the definition of this rate can be found in \textbf{Table A.2}. 
