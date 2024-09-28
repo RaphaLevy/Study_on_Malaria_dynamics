@@ -14,6 +14,7 @@ Contents:
   - qgis_data: Contains necessary files for mapping data in QGIS
     - Manaus shapefile obtained from [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html)
     - Deforestation data obtained from [TerraBrasilis](https://terrabrasilis.dpi.inpe.br/app/map/deforestation?hl=pt-br) plug-in for QGIS
+  - mapbiomas_data: Contains .csv and .ipynb files used for extraction and treatment of MapBiomas data
 + Files:
   - mosqlimate_api.ipynb: Extraction of temperature data from the [Mosqlimate API](https://api.mosqlimate.org/datastore/)
   - API_Data_Modeling.ipynb: Development of SIR/SEI modeling using Mosqlimate data
