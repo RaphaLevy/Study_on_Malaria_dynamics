@@ -236,7 +236,7 @@ which uses the probability of survival of pupae, larvae and eggs dependant on ra
 value of $R_L$, this subtraction can give negative results depending on $R$. 
 
 In addition to that, it was noted that, using the parameters based on Tanzanian 
-data,  the value of $\mu$ would be very close to 0, while $l(\tau_M)$ would be close to 1. Because of this, ${dE_M}/{dt}$ would be very close to 0 as 
+data,  the value of $\mu$ would be very close to 0, while $l(\tau_M)$ would be close to 1. Because of this, $(5)$ would be very close to 0 as 
 well, causing mirrored oscillations of $S_M$ and $I_M$, and $E_M$ to be nearly constant.
 
 To overcome this effect, the SEI equations were modified in order for $b_1$ to only be used in the transference between compartments $S$ and $E$, 
@@ -600,6 +600,8 @@ $$V = \begin{bmatrix}
 and $\mathcal{R}_0 = \Big | \sqrt{\dfrac{a^2 b_1 b_2 b_3}{(b_3 + l + \mu)(\gamma+\mu_H) \mu}}\Big | = 
 \sqrt{\mathcal{R}_{0 SIR} \times \mathcal{R}_{0 SEI}}$. 
 \end{itemize}
+Having the base equations for the modeling of this problem, it is now possible to apply modifications based on environmental effects. in this study, we will focus mostly on the effects caused by deforestation and forest fires, with the use of data from Manaus between 2004 to 2008 \cite{MapBIOMAS_Deforestation, MapBIOMAS_Forest_Fires}.
+
 
  \begin{thebibliography}{00}
 
@@ -614,7 +616,7 @@ and $\mathcal{R}_0 = \Big | \sqrt{\dfrac{a^2 b_1 b_2 b_3}{(b_3 + l + \mu)(\gamma
 \bibitem{regulation_of_sexual_commitment} G.A. Josling, K.C Williamson, M. Llinás, Regulation of Sexual Commitment and Gametocytogenesis in Malaria Parasites, Annual Review of Microbiology, Vol. 72 (1) (2018), 501-519, \href{https://doi.org/10.1146/annurev-micro-090817-062712}{https://doi.org/10.1146/annurev-micro-090817-062712}.
 \\
 %3
-\bibitem{WHO2022} World Health Organization / World Malaria Report 2022, Global Malaria Programme, accessed 29 August 2024, \href{https://www.who.int/publications/i/item/9789240064898}{https://www.who.int/publications/i/item/9789240064898}.
+\bibitem{WHO2022} World Health Organization / World Malaria Report 2022, Global Malaria Programme, accessed on 29 August 2024, \href{https://www.who.int/publications/i/item/9789240064898}{https://www.who.int/publications/i/item/9789240064898}.
 \\
 %4
 \bibitem{silva-nunes_malaria_amazon_2008} M. Silva-Nunes et al., Malaria on the Amazonian frontier: transmission dynamics, risk factors, spatial distribution, and prospects for control, American Journal of Tropical Medicine and Hygiene, Vol. 79 (4) (2008), 624-635, \href{https://doi.org/10.4269/ajtmh.2008.79.624}{https://doi.org/10.4269/ajtmh.2008.79.624}. 
@@ -644,19 +646,19 @@ and $\mathcal{R}_0 = \Big | \sqrt{\dfrac{a^2 b_1 b_2 b_3}{(b_3 + l + \mu)(\gamma
 \bibitem{Vector_Incrimination} A. K. R. Galardo, M. Arruda, et al., Malaria vector incrimination in three rural riverine villages in the Brazilian Amazon, The American Journal of Tropical Medicine and Hygiene, Vol. 76 (3) (2007), 461-469, \href{https://www.ajtmh.org/view/journals/tpmd/76/3/article-p461.xml}{https://www.ajtmh.org/view/journals/tpmd/76/3/article-p461.xml}.
 \\
 %13
-\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed 12 August 2024, \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
+\bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed on 12 August 2024, \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
 \\
 %14
-\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed on 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
 \\
 %15
-\bibitem{MosqlimateAPI} Mosqlimate Data API / Datastore / climate, accessed 12 August 2024, \href{https://api.mosqlimate.org/datastore/}{https://api.mosqlimate.org/datastore/}.
+\bibitem{MosqlimateAPI} Mosqlimate Data API / Datastore / climate, accessed on 12 August 2024, \href{https://api.mosqlimate.org/datastore/}{https://api.mosqlimate.org/datastore/}.
 \\
 %16
 \bibitem{Norris2004} D. E. Norris, Mosquito-borne Diseases as a Consequence of Land Use Change, EcoHealth, Vol. 1 (1) (2004), 19-24, \href{https://doi.org/10.1007/s10393-004-0008-7}{https://doi.org/10.1007/s10393-004-0008-7}.
 \\
 %17
-\bibitem{infoAnopheles} Anopheles, Fiocruz Rondônia, accessed 15 August 2024, \href{https://www.rondonia.fiocruz.br/pivem/anopheline/}{https://www.rondonia.fiocruz.br/pivem/anopheline/}.
+\bibitem{infoAnopheles} Anopheles, Fiocruz Rondônia, accessed on 15 August 2024, \href{https://www.rondonia.fiocruz.br/pivem/anopheline/}{https://www.rondonia.fiocruz.br/pivem/anopheline/}.
 \\
 %18
 \bibitem{article_alteracoesambientais} M. Silva-Nunes, Environmental changes impact in malaria transmition and prospects for the disease control in brazilian amazon rural settlements, Oecologia Australis, Vol. 14 (3) (2010), 603-622, \href{https://revistas.ufrj.br/index.php/oa/article/view/7101}{https://revistas.ufrj.br/index.php/oa/article/view/7101}.
@@ -670,6 +672,12 @@ East Zone of Manaus, Amazon, South American Journal of Basic Education, Technica
 \\
 %21
 \bibitem{Rep_Number_Comp_Model} P. van den Driessche, J. Watmough, Reproduction numbers and sub-threshold endemic equilibria for compartmental models of disease transmission, Mathematical Biosciences, Vol. 180 (2002), 29-48, \href{https://doi.org/10.1016/S0025-5564(02)00108-6}{ https://doi.org/10.1016/S0025-5564(02)00108-6}.
+\\
+%22
+\bibitem{MapBIOMAS_Deforestation} MapBiomas, Collection 9 of the Annual Land Cover and Land Use Maps of Brazil (1985-2023), V1 (2024), accessed on 24 September 2024 through the link: \href{https://doi.org/10.58053/MapBiomas/XXUKA8}{https://doi.org/10.58053/MapBiomas/XXUKA8}.
+\\
+%23
+\bibitem{MapBIOMAS_Forest_Fires} MapBiomas, Collection 3 of Annual burned area maps of Brazil (1985-2023), V1 (2024), accessed on 24 September 2024 through the link: \href{https://doi.org/10.58053/MapBiomas/XUFVIC}{https://doi.org/10.58053/MapBiomas/XUFVIC}.
 \\
 
 
