@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  28 SEP 2024 21:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  28 SEP 2024 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,15 +1311,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--697
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 697--700
-[]\T1/stix/m/n/8 P. M. Fearn-side, Con-ser-va-tion Pol-icy in Brazil-ian Ama-zo
--nia:
+Underfull \hbox (badness 1237) in paragraph at lines 697--700
+[]\T1/stix/m/n/8 C. F. Lima, F. T. P. Tor-res, L. J. Minette, F. A. Lima, R. C.
+
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 697--700
-\T1/stix/m/n/8 Un-der-stand-ing the Dilem-mas, World De-vel-op-ment, Vol. 31 (5
-),
+Underfull \hbox (badness 1484) in paragraph at lines 697--700
+\T1/stix/m/n/8 A. Lima et al, Is there a re-la-tion-ship be-tween for-est fires
+ and
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 697--700
+\T1/stix/m/n/8 de-for-esta-tion in the Brazil-ian Ama-zon?, PLOS ONE, Vol. 19
  []
 
 
@@ -1328,15 +1333,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 697--700
  []
 
 [5]
-Underfull \hbox (badness 1953) in paragraph at lines 700--703
-\T1/stix/m/n/8 Brazil-ian Ama-zon: Threats and op-por-tu-ni-ties, Re-search Squ
-are,
+Underfull \hbox (badness 4120) in paragraph at lines 700--703
+[]\T1/stix/m/n/8 P. M. Fearn-side, Con-ser-va-tion Pol-icy in Brazil-ian Ama-zo
+-nia:
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 700--703
-\T1/stix/m/n/8 PREPRINT (Ver-sion 1) (2024), [][]https://doi.org/10.21203/rs.3.
-rs-
+Underfull \hbox (badness 1406) in paragraph at lines 700--703
+\T1/stix/m/n/8 Un-der-stand-ing the Dilem-mas, World De-vel-op-ment, Vol. 31 (5
+),
  []
 
 
@@ -1345,55 +1350,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 700--703
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 1953) in paragraph at lines 703--706
+\T1/stix/m/n/8 Brazil-ian Ama-zon: Threats and op-por-tu-ni-ties, Re-search Squ
+are,
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 703--706
+\T1/stix/m/n/8 PREPRINT (Ver-sion 1) (2024), [][]https://doi.org/10.21203/rs.3.
+rs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--706
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 []\T1/stix/m/n/8 G1, M. Cas-tro, "Ama-zonas reg-is-tra 21,6 mil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 \T1/stix/m/n/8 queimadas em 2024 e tem o pior índice em 26
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 \T1/stix/m/n/8 anos, aponta Inpe", ac-cessed on 28 Septem-ber 2024,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 [][]\T1/stix/m/n/8 https://g1.globo.com/am/amazonas/noticia/2024/09/24/amazonas
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 \T1/stix/m/n/8 registra-216-mil-queimadas-em-2024-e-tem-o-pior-indice-em-26-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--705
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
 [6
 
 ]
-Overfull \hbox (238.25444pt too wide) in paragraph at lines 720--720
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 723--723
  []$[]$ 
  []
 
 
-Overfull \hbox (238.25444pt too wide) in paragraph at lines 722--740
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 725--743
  [][] 
  []
 
 
-Overfull \hbox (238.25444pt too wide) in paragraph at lines 745--745
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 748--748
  []$[]$ 
  []
 
 
-Overfull \hbox (238.25444pt too wide) in paragraph at lines 747--782
+Overfull \hbox (238.25444pt too wide) in paragraph at lines 750--785
  [][] 
  []
 
@@ -1414,10 +1436,10 @@ Package rerunfilecheck Info: File `cas-dc-article.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18233 strings out of 475247
- 283322 string characters out of 5757791
+ 18237 strings out of 475247
+ 283495 string characters out of 5757791
  1957785 words of memory out of 5000000
- 39397 multiletter control sequences out of 15000+600000
+ 39400 multiletter control sequences out of 15000+600000
  677886 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,117p,717b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1435,9 +1457,9 @@ athex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix
 ic/stix/stix-mathrm.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/stix/stix-mathscr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/stix/stix-mathsf.pfb>
-Output written on cas-dc-article.pdf (7 pages, 287123 bytes).
+Output written on cas-dc-article.pdf (7 pages, 287934 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
