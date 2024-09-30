@@ -236,13 +236,17 @@ which uses the probability of survival of pupae, larvae and eggs dependant on ra
 value of $R_L$, this subtraction can give negative results depending on $R$. 
 
 In addition to that, it was noted that, using the parameters based on Tanzanian 
-data,  the value of $\mu$ would be very close to 0, while $l(\tau_M)$ would be close to 1. Because of this, $(5)$ would be very close to 0 as 
+data, the value of $\mu$, the mosquito mortality rate per capita, would be very close to 0, around $2.7 \times 10^{-3}$, while $l(\tau_M)$ would be close to 1. Because of this, $(5)$ would be very close to 0 as 
 well, causing mirrored oscillations of $S_M$ and $I_M$, and $E_M$ to be nearly constant.
 
 To overcome this effect, the SEI equations were modified in order for $b_1$ to only be used in the transference between compartments $S$ and $E$, 
 and a new parameter, $b_3$ to move mosquitos from $E$ to $I$. Being inversely related to the incubation period, the definition of this rate can be found in \textbf{Table A.2}. 
 In addition to that, the parameter $a(T)$ that was in use in the transition between exposed and infected also had to be removed, as no further bites occur at this point. 
 The parameter $l$ also had to be disassociated from the infection rate of exposed individual ($b_3$).
+
+Further modifications were done on parameters $A$, $B$ and $C$, as small enough values for these parameters, mostly for $A$, increases $\mu$ 
+and leads the population to extinction. They were modified in order for $\mu$ to be on 
+a scale of $4.02 \times 10^{-6}$, making the mosquito population relatively constant. 
 
 The SIR equations were also modified, to take into consideration population dynamics, including a $\mu_H$ parameter as both a birth and mortality rate.
 
