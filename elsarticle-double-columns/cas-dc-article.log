@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  11 OCT 2024 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  11 OCT 2024 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1279,7 +1279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--697
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 697--700
 \T1/stix/m/n/8 (1985-2023), V1 (2024), ac-cessed on 24 Septem-ber 2024,
  []
@@ -1299,7 +1299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 700--703
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 703--706
 
  []
@@ -1479,7 +1479,7 @@ Here is how much of TeX's memory you used:
  39406 multiletter control sequences out of 15000+600000
  677886 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,117p,717b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,117p,717b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx
 0900.pk> <C:\Users\ilana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecss0900.pk><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1494,7 +1494,7 @@ athex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix
 ic/stix/stix-mathrm.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/stix/stix-mathscr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/stix/stix-mathsf.pfb>
-Output written on cas-dc-article.pdf (7 pages, 290350 bytes).
+Output written on cas-dc-article.pdf (7 pages, 290376 bytes).
 PDF statistics:
  324 PDF objects out of 1000 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)
