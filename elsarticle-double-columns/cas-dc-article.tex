@@ -298,28 +298,26 @@ period, and about $9.4\%$ of the cases in the state.
 
 Using data from 2015 to 2019, the rural population is found to represent  
 approximately 0.4$\%$ of the municipality's population, the number of cases in rural settings being about $41.5\%$ of all cases in the city in this 
-period, and about $7.2\%$ of the cases in the state.
+period, and about $7.2\%$ of the cases in the state. With this, we will use that the rural population represents roughly $4.5\%$ of Manaus' population.
 
-Having estimated the percentage size of the rural population 
-in the city, it was possible to calculate this population for 
-each of the years of the analysis through linear interpolation 
-using historical series data from IBGE \cite{popIBGE}:
+Using data from IBGE obtained from Pysus \cite{Pysus},  %\cite{popIBGE}, 
+it was possible to estimate the rural population between the years 2003 and 2021.
 
-\begin{table}[width=.9\linewidth,cols=4,pos=h]
-\caption{Manaus' rural population from 2004 to 2009.}\label{tbl1}
-\begin{tabular*}{\tblwidth}{@{} LL@{} } %| L | L | L | L |
-\toprule
-\textbf{Year}  & \textbf{Estimated rural population}\\
-\midrule
-$2004$ & $7717$ \\
- $2005$ & $7889$ \\
-$2006$ & $8061$ \\
-$2007$ & $8233$ \\
-$2008$ & $8492$ \\
-$2009$ & $8751$ \\
-\bottomrule
-\end{tabular*}
-\end{table}
+%\begin{table}[width=.9\linewidth,cols=4,pos=h]
+%\caption{Manaus' rural population from 2004 to 2009.}\label{tbl1}
+%\begin{tabular*}{\tblwidth}{@{} LL@{} } %| L | L | L | L |
+%\toprule
+%\textbf{Year}  & \textbf{Estimated rural population}\\
+%\midrule
+%$2004$ & $7717$ \\
+% $2005$ & $7889$ \\
+%$2006$ & $8061$ \\
+%$2007$ & $8233$ \\
+%$2008$ & $8492$ \\
+%$2009$ & $8751$ \\
+%\bottomrule
+%\end{tabular*}
+%\end{table}
 
 
 %\begin{table}[h]
@@ -343,10 +341,11 @@ $2009$ & $8751$ \\
 % \hline
 %\end{tabular}
 %\end{table}
-Given there was only population data for the years of 2000, 2007, and 2010, 
-interpolations were performed with different initial and final 
-points, using data from 2000 to 2007 for 2004-2007 and from 2007 
-to 2010 for 2008-2009, ensuring the correct use of the 2007 population. 
+%Given there was only population data for the years of 2000, 2007, and 2010, 
+%interpolations were performed with different initial and final 
+%points, using data from 2000 to 2007 for 2004-2007 and from 2007 
+%to 2010 for 2008-2009, ensuring the correct use of the 2007 population. 
+
 Given the population growth between 2004 and 2009, the annual birth rate was 
 estimated to be 206.8 births per year. Therefore, this corresponds 
 to approximately 0.56657 births per day and 0.00007 births per day 
@@ -670,7 +669,8 @@ As a method used in particular for land-clearing, forest fires remove the vegeta
 \bibitem{Datasus2006} Tabnet, Ministério da Saúde, accessed on 12 August 2024, \href{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}{http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popam.def}.
 \\
 %14
-\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed on 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
+\bibitem{Pysus} PySUS - Obtaining data from IBGE, F. C. Coelho, B. C.  Baron, G. M. C. Fonseca, P. Reck, D. Palumbo (2021), accessed on 10 October 2024 (doi \href{https://doi.org/10.5281/zenodo.4883502}{https://doi.org/10.5281/zenodo.4883502}), \href{https://pysus.readthedocs.io/en/latest/tutorials/IBGE\_data.html}{https://pysus.readthedocs.io/en/latest/tutorials/IBGE\_data.html}.
+%former bibitem 14 %\bibitem{popIBGE} Censo - Séries históricas. Brasil / Amazonas / Manaus, IBGE, accessed on 15 August 2024, \href{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}{https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/43/0?tipo=grafico}.
 \\
 %15
 \bibitem{MosqlimateAPI} Mosqlimate Data API / Datastore / climate, accessed on 12 August 2024, \href{https://api.mosqlimate.org/datastore/}{https://api.mosqlimate.org/datastore/}.
@@ -727,8 +727,6 @@ East Zone of Manaus, Amazon, South American Journal of Basic Education, Technica
 %32
 \bibitem{G1_Queimadas} G1, M. Castro, "Amazonas registra 21,6 mil queimadas em 2024 e tem o pior índice em 26 anos, aponta Inpe", accessed on 28 September 2024, \href{https://g1.globo.com/am/amazonas/noticia/2024/09/24/amazonas-registra-216-mil-queimadas-em-2024-e-tem-o-pior-indice-em-26-anos-aponta-inpe.ghtml}{https://g1.globo.com/am/amazonas/noticia/2024/09/24/amazonas-registra-216-mil-queimadas-em-2024-e-tem-o-pior-indice-em-26-anos-aponta-inpe.ghtml}.
 \\
-
-
 
 \end{thebibliography}
 
