@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  12 OCT 2024 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.13)  12 OCT 2024 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,8 +978,9 @@ Overfull \hbox (29.231pt too wide) in paragraph at lines 612--615
  []
 
 [4]
-Underfull \hbox (badness 7777) in paragraph at lines 633--636
-[]\T1/stix/m/n/8 P.F.P. Pi-menta et al., An overview of malaria trans-mis-sion
+Underfull \hbox (badness 2735) in paragraph at lines 633--636
+[]\T1/stix/m/n/8 P. F. P. Pi-menta et al., An overview of malaria trans-mis-sio
+n
  []
 
 
@@ -1107,19 +1108,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 660--663
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 663--666
-\T1/stix/m/n/8 C.S. An-dreazzi, M. Bar-bosa, M.I.S. Es-cada, D.A. Fer-nan-des,
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 663--666
-\T1/stix/m/n/8 D.L. Ro-drigues, I.C. Reis, M. da Silva-Nunes, A.B. Gon-tijo,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--666
-\T1/stix/m/n/8 F.C. Coelho, A.M.V. Mon-teiro, Epi-demi-ol-ogy, Bio-di-ver-sity,
-
+Underfull \hbox (badness 2073) in paragraph at lines 663--666
+\T1/stix/m/n/8 F. C. Coelho, A. M. V. Mon-teiro, Epi-demi-ol-ogy, Bio-di-ver-si
+ty,
  []
 
 
@@ -1483,7 +1474,7 @@ athex.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix
 ic/stix/stix-mathrm.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/stix/stix-mathscr.pfb><C:/Users/ilana/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/stix/stix-mathsf.pfb>
-Output written on cas-dc-article.pdf (7 pages, 286742 bytes).
+Output written on cas-dc-article.pdf (7 pages, 286756 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
