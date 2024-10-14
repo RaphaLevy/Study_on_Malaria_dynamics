@@ -9,7 +9,7 @@ Contents:
 + Folders:
   - api_data_modeling: Contains .ipynb and .csv files for extraction of data and development of SIR/SEI modeling
     - mosqlimate_api.ipynb: Extraction of temperature and precipitation data from the [Mosqlimate API](https://api.mosqlimate.org/datastore/)
-    - API_Data_Modeling.ipynb: Development of SIR/SEI modeling using Mosqlimate data
+    - API_Data_Modeling.ipynb: Initial development of SIR/SEI modeling using Mosqlimate data
   - elsarticle-ecrc: Contains necessary files for development of the article (One column format)
   - elsarticle-double-columns: Contains necessary files for development of the article (Two column format)
   - temperature_data: Contains .tif files of temperature data (Outdated)
