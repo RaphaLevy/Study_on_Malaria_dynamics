@@ -7,6 +7,9 @@ Supervising Professor: [Flávio Codeço Coelho](https://emap.fgv.br/professores/
 Contents:
 
 + Folders:
+  - api_data_modeling: Contains .ipynb and .csv files for extraction of data and development of SIR/SEI modeling
+    - mosqlimate_api.ipynb: Extraction of temperature and precipitation data from the [Mosqlimate API](https://api.mosqlimate.org/datastore/)
+    - API_Data_Modeling.ipynb: Development of SIR/SEI modeling using Mosqlimate data
   - elsarticle-ecrc: Contains necessary files for development of the article (One column format)
   - elsarticle-double-columns: Contains necessary files for development of the article (Two column format)
   - temperature_data: Contains .tif files of temperature data (Outdated)
@@ -18,8 +21,6 @@ Contents:
   - pysus_data: Contains .parquet, .csv and .ipynb files used for extraction and treatment of Pysus (SINAN) data
   - sivep_data: Contains .parquet, .csv and .ipynb files used for extraction and treatment of SIVEP data
 + Files:
-  - mosqlimate_api.ipynb: Extraction of temperature data from the [Mosqlimate API](https://api.mosqlimate.org/datastore/)
-  - API_Data_Modeling.ipynb: Development of SIR/SEI modeling using Mosqlimate data
   - temperature_tif_jupyter.ipynb: Extraction of temperature data from the [WorldClim database](https://www.worldclim.org/data/monthlywth.html) (Outdated)
 
 Original repository for the Final Course Work: [https://github.com/RaphaLevy/Undergraduate_Dissertation/tree/main](https://github.com/RaphaLevy/Undergraduate_Dissertation/tree/main)
